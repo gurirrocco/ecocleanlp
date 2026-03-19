@@ -223,22 +223,13 @@ ul {
   line-height: 2;
 }
 
-.eco-hero__images {
-  display: flex;
-  gap: 16px;
-  flex: 0 0 auto;
-  max-width: 520px;
-}
-
 .eco-hero__image {
-  flex: 1;
+  flex: 0 0 auto;
+  max-width: 480px;
 }
 
 .eco-hero__image img {
   border-radius: var(--eco-radius-lg);
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
 }
 
 /* ========================================
@@ -830,12 +821,8 @@ ul {
     font-size: 38px;
   }
 
-  .eco-hero__images {
-    max-width: 400px;
-  }
-
-  .eco-hero__image img {
-    height: 260px;
+  .eco-hero__image {
+    max-width: 380px;
   }
 
   .eco-stats__grid {
@@ -886,7 +873,7 @@ ul {
 
   /* Hero */
   .eco-hero {
-    padding: 40px 0 32px;
+    padding: 32px 0 24px;
   }
 
   .eco-hero__inner {
@@ -895,25 +882,30 @@ ul {
   }
 
   .eco-hero__sub {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 4px;
   }
 
   .eco-hero__title {
-    font-size: 32px;
+    font-size: 28px;
+    margin-bottom: 12px;
   }
 
   .eco-hero__desc {
-    font-size: 15px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.8;
   }
 
-  .eco-hero__images {
-    flex-direction: column;
+  .eco-hero__text .eco-btn--primary {
+    font-size: 16px;
+    padding: 14px 32px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .eco-hero__image {
     max-width: 100%;
-    gap: 12px;
-  }
-
-  .eco-hero__image img {
-    height: 200px;
   }
 
   /* Problem */
@@ -1141,8 +1133,16 @@ ul {
    RESPONSIVE: Small Mobile (480px and below)
    ======================================== */
 @media screen and (max-width: 480px) {
+  .eco-hero__sub {
+    font-size: 14px;
+  }
+
   .eco-hero__title {
-    font-size: 26px;
+    font-size: 24px;
+  }
+
+  .eco-hero__desc {
+    font-size: 13px;
   }
 
   .eco-section-title {
