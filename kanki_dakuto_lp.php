@@ -1,0 +1,677 @@
+<?php /* Template Name: LPページ */ ?>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>エコ・クリーン｜換気ダクト清掃</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/kanki_dakuto_lp.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-logo-row">
+      <img class="logo" src="https://www.figma.com/api/mcp/asset/17e0115f-5ead-4bfe-8c2d-576ea5ffcf4d" alt="エコクリーン" />
+    </div>
+    <div class="header-blue-bar"></div>
+  </header>
+
+  <!-- ===== 1. HERO ===== -->
+  <section class="hero">
+    <div class="hero-photo-row">
+      <img class="hero-photo" src="https://www.figma.com/api/mcp/asset/ea09a599-0393-45b6-839d-f7cba2363221" alt="" />
+      <img class="hero-photo" src="https://www.figma.com/api/mcp/asset/e8adc065-2827-475f-ab79-421efc886918" alt="" />
+    </div>
+    <div class="hero-overlay">
+      <!-- 左上：毎日吸っている空気 -->
+      <div class="hero-air-tag">
+        <span class="hero-air-big">毎日吸</span><span class="hero-air-mid">っている</span><span class="hero-air-big">空気</span>
+      </div>
+      <!-- 右側：本当にキレイですか？ -->
+      <div class="hero-question">
+        <span class="hq-big">本当</span><span class="hq-mid">に</span><span class="hq-big">キレイ</span><span class="hq-mid">ですか</span><span class="hq-xl">？</span>
+      </div>
+      <!-- 中央の写真 -->
+      <div class="hero-machine-photo">
+        <img src="https://www.figma.com/api/mcp/asset/153d0d3a-8a23-4fda-ab76-f1df72911777" alt="" />
+      </div>
+      <!-- 右の大きい写真 -->
+      <div class="hero-duct-photo">
+        <img src="https://www.figma.com/api/mcp/asset/e3b50c16-43e4-4371-ab0d-1590b6cffff9" alt="" />
+      </div>
+      <!-- 下部バナー -->
+      <div class="hero-bottom-banner">
+        見えないダクト内部の汚れをプロが徹底清掃
+      </div>
+    </div>
+  </section>
+
+  <div class="main-content">
+  <!-- ===== 2. 換気ダクト清掃で解決 ===== -->
+  <section class="sec-benefits">
+    <div class="inner-1349">
+      <div class="sec-title-wrap">
+        <p class="sec-title navy fw700 lh-n" style="font-size:0;">
+          <span style="font-size:clamp(24px,2.5vw,48px)">換気ダクト清掃</span><span style="font-size:clamp(18px,1.875vw,36px)">で、</span>
+        </p>
+        <div class="hl-wrap">
+          <div class="hl"></div>
+          <p class="sec-title navy fw700 lh-n" style="font-size:0;">
+            <span style="font-size:clamp(24px,2.5vw,48px)">こんなお悩み</span><span style="font-size:clamp(18px,1.875vw,36px)">も</span><span style="font-size:clamp(24px,2.5vw,48px)">解決！</span>
+          </p>
+        </div>
+      </div>
+      <div class="benefits-white-card">
+        <div class="benefits-row">
+          <div class="benefit-item">
+            <div class="benefit-text-wrap">
+              <div class="benefit-hl"></div>
+              <div class="benefit-text navy fw700">
+                <p>お風呂のカビが</p>
+                <p style="font-size:clamp(16px,1.667vw,32px)">少なくなった！</p>
+              </div>
+            </div>
+            <div class="benefit-icon"><img src="https://www.figma.com/api/mcp/asset/eb538148-affc-42a5-a833-d54902e9459d" alt="" /></div>
+          </div>
+          <div class="benefit-divider-v"></div>
+          <div class="benefit-item">
+            <div class="benefit-text-wrap">
+              <div class="benefit-hl"></div>
+              <div class="benefit-text navy fw700">
+                <p>換気扇の音が</p>
+                <p style="font-size:clamp(16px,1.667vw,32px)">静かになった！</p>
+              </div>
+            </div>
+            <div class="benefit-icon"><img src="https://www.figma.com/api/mcp/asset/7189692b-4223-4c36-aa77-d000ced57be6" alt="" /></div>
+          </div>
+        </div>
+        <div class="benefit-divider-h"></div>
+        <div class="benefits-row">
+          <div class="benefit-item">
+            <div class="benefit-text-wrap">
+              <div class="benefit-hl"></div>
+              <div class="benefit-text navy fw700">
+                <p>トイレの臭いが</p>
+                <p>解消された！</p>
+              </div>
+            </div>
+            <div class="benefit-icon"><img src="https://www.figma.com/api/mcp/asset/2fc05bb2-c067-4a95-8653-a7cc9e545b01" alt="" /></div>
+          </div>
+          <div class="benefit-divider-v"></div>
+          <div class="benefit-item">
+            <div class="benefit-text-wrap">
+              <div class="benefit-hl"></div>
+              <div class="benefit-text navy fw700">
+                <p>部屋の埃が</p>
+                <p>少なくなった！</p>
+              </div>
+            </div>
+            <div class="benefit-icon"><img src="https://www.figma.com/api/mcp/asset/16d97c2a-9970-4291-be6c-d31e24a4ee00" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 3. CTA ===== -->
+  <section class="sec-cta bg-white">
+    <div class="cta-wrap">
+      <div style="text-align:center">
+        <p class="navy fw700 lh-n" style="font-size:clamp(20px,2.083vw,40px); text-align:center;">まずはご相談下さい。</p>
+        <div class="hl-wrap" style="text-align:center">
+          <div class="hl"></div>
+          <p class="navy fw700 lh-n" style="font-size:clamp(20px,2.083vw,40px); text-align:center;">親切・丁寧にご対応致します。</p>
+        </div>
+      </div>
+      <div class="cta-buttons">
+        <button class="btn-consult">無料でご相談</button>
+        <div class="btn-tel">
+          <span class="btn-tel-label">電話で問い合わせ</span>
+          <div class="btn-tel-divider"></div>
+          <div class="btn-tel-num-wrap">
+            <p class="btn-tel-num">060-6152-6364</p>
+            <p class="btn-tel-sub">緊急時にもご対応させて頂きます</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 4. お悩みエリア ===== -->
+  <section class="sec-worries">
+    <div class="inner-1450">
+      <div class="worries-white-card">
+
+        <!-- 換気ダクト清掃とは -->
+        <div class="what-is-row">
+          <div class="what-is-text">
+            <div class="hl-wrap">
+              <div class="hl"></div>
+              <p class="navy fw700 lh-n" style="font-size:0;">
+                <span style="font-size:clamp(24px,2.5vw,48px); letter-spacing:-0.05em">換気ダクト清掃</span><span style="font-size:clamp(12px,1.25vw,24px); letter-spacing:-0.05em">とは</span>
+              </p>
+            </div>
+            <p class="what-is-desc">換気ダクト清掃とは、建物内の空気を循環・排出するために設置されたダクト（風道）の内部に蓄積した汚れ、ほこり、油脂、カビなどを専門的な機器を使って除去・洗浄する作業のことです。</p>
+          </div>
+          <div class="what-is-img">
+            <img src="https://www.figma.com/api/mcp/asset/8bd72bb4-832d-4b73-ba91-ea35feed9feb" alt="" />
+          </div>
+        </div>
+
+        <!-- 下矢印 -->
+        <div class="arrow-down-wrap">
+          <img src="https://www.figma.com/api/mcp/asset/70a7169c-7ec4-49f6-b7ef-f7a579aef635" alt="" style="transform:scaleY(-1); width:270px;" />
+        </div>
+
+        <!-- こんなお悩みありませんか -->
+        <div class="hl-wrap" style="margin-bottom:clamp(20px,2.083vw,40px);">
+          <div class="hl"></div>
+          <p class="navy fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px);">こんなお悩みありませんか？</p>
+        </div>
+
+        <!-- 一般・飲食店 -->
+        <div class="customer-row">
+          <div class="customer-card" style="border-color:#293d86;">
+            <div class="customer-card-hd" style="background:#293d86;">
+              <p class="white fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px); white-space:nowrap;">一般家庭のお客様</p>
+            </div>
+            <div class="customer-icon"><img src="https://www.figma.com/api/mcp/asset/86044db5-d3b1-41ef-9b3f-f1230ba41e43" alt="" /></div>
+            <ul class="customer-list">
+              <li>・換気扇を回すと嫌な臭いがする</li>
+              <li>・浴室のカビがすぐ増える</li>
+              <li>・トイレの臭いが気になる</li>
+              <li>・部屋のホコリが多い</li>
+              <li>・換気扇の音が大きくなった</li>
+            </ul>
+          </div>
+          <div class="customer-card" style="border-color:#fffa26;">
+            <div class="customer-card-hd" style="background:#fffa26;">
+              <p class="navy fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px); white-space:nowrap;">飲食店オーナー様</p>
+            </div>
+            <div class="customer-icon" style="width:clamp(180px,21.094vw,405px);height:clamp(90px,10.547vw,202px);"><img src="https://www.figma.com/api/mcp/asset/8839840d-9cdb-4ca4-a227-f3730c92d59d" alt="" /></div>
+            <ul class="customer-list">
+              <li>・ダクトの油汚れが気になる</li>
+              <li>・火災リスクが心配</li>
+              <li>・厨房の臭いが店内に残る</li>
+              <li>・換気効率が悪い</li>
+              <li>・定期清掃の業者を探している</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 汚れ写真 -->
+        <div class="dirt-photos-box">
+          <div class="dirt-label-tag">汚れのお写真</div>
+          <div class="dirt-photos-row">
+            <div class="dirt-photo-col">
+              <img src="https://www.figma.com/api/mcp/asset/2321cc81-b5d3-456a-a7d1-5a925afc2e4a" alt="換気扇のシロッコファン" />
+              <div class="dirt-caption-tag">換気扇のシロッコファン</div>
+            </div>
+            <div class="dirt-photo-col">
+              <img src="https://www.figma.com/api/mcp/asset/0b82c109-51b7-4b57-9928-ab105d855011" alt="レンジフード" />
+              <div class="dirt-caption-tag">レンジフード</div>
+            </div>
+            <div class="dirt-photo-col">
+              <img src="https://www.figma.com/api/mcp/asset/3a1adb86-1cad-4e53-b9a3-6b4542dbab6a" alt="トイレ・部屋などの換気ダクト" />
+              <div class="dirt-caption-tag">トイレ・部屋などの換気ダクト</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- お家や店舗が... -->
+        <div style="margin-top:clamp(20px,2.083vw,40px);">
+          <p class="navy fw700 lh-n" style="font-size:clamp(20px,3.333vw,64px);">お家や店舗が</p>
+          <div class="hl-wrap">
+            <div class="hl"></div>
+            <p class="navy fw700 lh-n" style="font-size:clamp(20px,3.333vw,64px);">このように汚れていませんか？</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 5. CTA2 ===== -->
+  <section class="sec-cta2">
+    <div class="cta2-navy-box">
+      <p class="yellow fw700 lh-n" style="font-size:clamp(18px,2.083vw,40px); white-space:nowrap;">１つでも当てはまったら︎</p>
+      <button class="btn-diagnosis">▶︎今すぐ無料診断する</button>
+    </div>
+  </section>
+
+  <!-- ===== 6. 放置するとどうなる ===== -->
+  <section class="sec-risks">
+    <div class="inner-1356">
+      <div class="hl-wrap" style="margin-bottom:clamp(20px,2.604vw,50px);">
+        <div class="hl"></div>
+        <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">放置するとどうなる？</p>
+      </div>
+
+      <!-- 衛生リスク -->
+      <div class="risk-block">
+        <div class="risk-hd" style="background:#f39c12;"><p class="white fw700" style="font-size:clamp(20px,2.5vw,48px);">衛生リスク</p></div>
+        <div class="risk-body" style="border-color:#f39c12;">
+          <div class="risk-3cards">
+            <div class="risk-card" style="background:#fef9e7;">
+              <p class="risk-card-title fw700" style="color:#f39c12;">カビ</p>
+              <p class="risk-card-desc fw500">ダクト内の結露により<br>カビが大量繁殖</p>
+            </div>
+            <div class="risk-card" style="background:#fdedec;">
+              <p class="risk-card-title fw700" style="color:#b23e3a;">ダニ・細菌</p>
+              <p class="risk-card-desc fw500">蓄積したホコリが<br>温床となり増殖</p>
+            </div>
+            <div class="risk-card" style="background:#e2ebfa;">
+              <p class="risk-card-title fw700" style="color:#293d86;">シックビル</p>
+              <p class="risk-card-desc fw500">汚染された空気が<br>健康被害の原因に</p>
+            </div>
+          </div>
+        </div>
+        <div class="risk-image-block" style="background:#f39c12;">
+          <div class="risk-img-pair">
+            <img src="https://www.figma.com/api/mcp/asset/e9666f97-7ac2-46b3-9d2c-7b026b9a6cdc" alt="" />
+            <img src="https://www.figma.com/api/mcp/asset/020e88b3-dc5a-4ac8-9393-b92e6f18bad7" alt="" />
+          </div>
+          <p class="risk-img-caption fw700 white">見えない空気の汚れが、<br>大切なご家族の健康を蝕んでいます。</p>
+        </div>
+      </div>
+
+      <!-- 省エネリスク -->
+      <div class="risk-block" style="margin-top:20px;">
+        <div class="risk-hd" style="background:#27ae60;"><p class="white fw700" style="font-size:clamp(20px,2.5vw,48px);">省エネリスク</p></div>
+        <div class="risk-body" style="border-color:#27ae60;">
+          <div class="risk-compare-row">
+            <div class="risk-compare-card" style="background:#fdedec;">
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:#e74c3c;">清掃前</p>
+              <p class="fw700 lh-n" style="font-size:clamp(36px,5vw,96px); color:#e74c3c;">最大30%</p>
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:#1f1f1f;">空調効率が低下</p>
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:rgba(31,31,31,0.47);">年間数万円のムダ</p>
+            </div>
+            <div class="risk-compare-card" style="background:#eafaf1;">
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:#27ae60;">電気代を削減</p>
+              <p class="fw700 lh-n" style="font-size:clamp(36px,5vw,96px); color:#27ae60;">月数千円</p>
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:#1f1f1f;">電気代を削減</p>
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:rgba(31,31,31,0.45);">初年度で清掃費用を回収</p>
+            </div>
+          </div>
+        </div>
+        <div class="risk-image-block" style="background:#27ae60;">
+          <div class="risk-img-pair">
+            <img src="https://www.figma.com/api/mcp/asset/04ca03fa-5764-4fc2-a15d-a14ad3374b2f" alt="" />
+            <img src="https://www.figma.com/api/mcp/asset/dd205d90-e18b-4b05-8797-2947b6d4e63f" alt="" />
+          </div>
+          <p class="risk-img-caption fw700 white">ダクト清掃は「コスト」ではなく「投資」。<br>設備や住環境を守るための大切なメンテナンスです。</p>
+        </div>
+      </div>
+
+      <!-- 火災リスク -->
+      <div class="risk-block" style="margin-top:20px;">
+        <div class="risk-hd" style="background:#b23e3a;"><p class="white fw700" style="font-size:clamp(20px,2.5vw,48px);">火災リスク</p></div>
+        <div class="risk-body" style="border-color:#b23e3a;">
+          <div class="risk-compare-row">
+            <div class="risk-compare-card" style="background:#fdedec;">
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:#b23e3a;">火災の原因</p>
+              <p class="fw700 lh-n" style="font-size:clamp(36px,5vw,96px); color:#b23e3a;">約7割</p>
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:#1f1f1f;">のダクト火災は</p>
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:rgba(31,31,31,0.47);">清掃不足が原因</p>
+            </div>
+            <div class="risk-compare-card" style="background:#fff; align-items:flex-start; text-align:left;">
+              <p class="fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); color:#b23e3a;">事例</p>
+              <p style="font-size:clamp(14px,1.25vw,24px); color:#1f1f1f;">清掃を怠った飲食店で深夜にダクト火災が発生。<span class="fw700">営業停止3ヶ月、数百万円の損害賠償に発展。</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="risk-image-block" style="background:#b23e3a;">
+          <div class="risk-img-pair">
+            <img src="https://www.figma.com/api/mcp/asset/a1ec3519-8715-4393-8429-dabd2340afe5" alt="" />
+            <img src="https://www.figma.com/api/mcp/asset/2d5f7351-da1a-4d65-9b1b-a505dd53e7d3" alt="" />
+          </div>
+          <p class="risk-img-caption fw700 white">定期清掃は「保険」ではなく「義務」。<br>取り返しのつかない事態になる前に対策を。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 7. サービス紹介 ===== -->
+  <section class="sec-services">
+    <div class="inner-1450">
+      <div class="services-white-card">
+        <!-- タイトル -->
+        <div class="service-title-row">
+          <div class="hl-wrap">
+            <div class="hl"></div>
+            <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">サービス紹介</p>
+          </div>
+          <p class="navy lh-n" style="font-size:clamp(14px,1.25vw,24px); white-space:nowrap;">プロの技術で、ダクトの見えない汚れを徹底除去。</p>
+        </div>
+        <!-- 4カード -->
+        <div class="service-cards-grid">
+          <div class="service-card">
+            <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">高圧洗浄 ×<br class="sp-br">専用機器</p></div>
+            <div class="service-card-img"><img src="https://www.figma.com/api/mcp/asset/ead4d7a3-799d-4fad-96a6-4d3906952859" alt="" /></div>
+            <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">頑固な油脂・<br>カビも徹底除去</p>
+          </div>
+          <div class="service-card">
+            <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">全種類の<br class="sp-br">ダクトに対応</p></div>
+            <div class="service-card-img"><img src="https://www.figma.com/api/mcp/asset/3956d007-c071-40d1-ae09-e97bca6f5c06" alt="" /></div>
+            <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">浴室・洗面所・トイレ<br>レンジフード・部屋対応</p>
+          </div>
+          <div class="service-card">
+            <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">ご都合に<br class="sp-br">合わせて対応</p></div>
+            <div class="service-card-img"><img src="https://www.figma.com/api/mcp/asset/13f606fb-d0b4-4bd6-a699-a6fc350cc9a4" alt="" /></div>
+            <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">土日・祝日作業OK<br>お客様のご都合に合わせます</p>
+          </div>
+          <div class="service-card">
+            <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">ダクト交換・<br class="sp-br">高所作業対応</p></div>
+            <div class="service-card-img"><img src="https://www.figma.com/api/mcp/asset/ebb93e61-5ac6-49d2-8914-a334c5e1d2fe" alt="" /></div>
+            <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">劣化したダクトの交換<br>高所作業にも対応可能です</p>
+          </div>
+        </div>
+        <!-- 地域 -->
+        <div class="region-title-wrap">
+          <div style="text-align:center;">
+            <p class="navy fw700 lh-n text-center" style="font-size:clamp(15px,2.5vw,48px);">大阪・兵庫地域密着の<br>エコ・クリーンは、緊急トラブルにも</p>
+            <div class="hl-wrap" style="text-align:center;">
+              <div class="hl"></div>
+              <p class="navy fw700 lh-n text-center" style="font-size:clamp(20px,2.5vw,48px);">親切・丁寧に対応します!</p>
+            </div>
+          </div>
+        </div>
+        <div class="region-maps-row">
+          <img src="https://www.figma.com/api/mcp/asset/61cf7d05-8225-4b3d-9e88-b6a4058dc3ab" alt="大阪府" />
+          <img src="https://www.figma.com/api/mcp/asset/8f288a1a-8cec-4f5c-b981-b939c8638449" alt="兵庫県" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 8. 確かな技術 ===== -->
+  <section class="sec-tech bg-white">
+    <div class="tech-heading-wrap">
+      <p class="navy fw700 text-center" style="font-size:clamp(18px,1.875vw,36px); line-height:50px;">エコ・クリーンは、</p>
+      <div class="tech-yellow-band">
+        <p class="navy fw700 lh-n" style="font-size:0; white-space:nowrap; text-align:center;">
+          <span style="font-size:clamp(24px,3.333vw,64px);">「確かな技術と丁寧な作業」</span><span style="font-size:clamp(18px,2.5vw,48px);">で</span>
+        </p>
+      </div>
+      <div class="tech-subtitle-wrap">
+        <p class="navy fw700 lh-n text-center" style="font-size:clamp(20px,3.333vw,64px);">ダクト内部の汚れを徹底除去します！</p>
+        <div class="tech-underline"><img src="https://www.figma.com/api/mcp/asset/8ffff70f-28bf-4639-aa98-7b158593125a" alt="" /></div>
+      </div>
+      <p class="navy text-center" style="font-size:clamp(14px,1.25vw,24px); line-height:1.8;">
+        見えないダクト内部の汚れは、空気環境や設備の効率に大きく影響します。<br>
+        エコクリーンでは専門機材とプロの技術で、ダクト内部の汚れを徹底除去。<br>
+        お客様の 快適で清潔な空気環境 のために、丁寧で高品質なサービスをお届けします。
+      </p>
+    </div>
+
+    <!-- 清掃ダクトのSTEP (Figma準拠 Z字型レイアウト) -->
+    <div class="duct-abs-grid">
+
+      <!-- STEP 1 -->
+      <div class="abs-step step1-m" style="left:7.53%;top:0%;width:45.18%;">
+        <div class="step-pill">
+          <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;1</span>
+          <span class="pill-r navy">作業前の汚れているダクト</span>
+        </div>
+        <img class="step-photo step-border" src="https://www.figma.com/api/mcp/asset/52e59f40-76e0-4d51-b531-1c83537ca075" alt="清掃前" />
+      </div>
+
+      <!-- 矢印 1→2 (右上方向) -->
+      <div class="abs-arrow arrow12-m" style="left:50.65%;top:12.57%;width:24.61%;">
+        <img src="https://www.figma.com/api/mcp/asset/3946df4f-5aea-42ab-be8f-c5964269695b" alt="" style="transform:rotate(-5.39deg);width:100%;display:block;" />
+      </div>
+
+      <!-- ラベル1「作業前に養生で」 -->
+      <div class="abs-label label1-m" style="left:63.86%;top:10.92%;width:26.36%;">
+        <p class="navy">作業前に養生で</p>
+        <p class="navy fw700">周囲を徹底ガード！</p>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="abs-step step2-m" style="left:54.82%;top:33.33%;width:45.18%;">
+        <div class="step-pill">
+          <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;2</span>
+          <span class="pill-r navy">養生を行います</span>
+        </div>
+        <img class="step-photo" src="https://www.figma.com/api/mcp/asset/f5e95fbc-7d0d-4a6e-9f14-1c6ba4766fa0" alt="養生" />
+      </div>
+
+      <!-- ラベル2「専用機材でダクト内部を」 -->
+      <div class="abs-label label2-m" style="left:7.53%;top:40.43%;width:26.36%;">
+        <p class="navy">専用機材でダクト内部を</p>
+        <p class="navy fw700">徹底洗浄！</p>
+      </div>
+
+      <!-- 矢印 2→3 (左下方向) -->
+      <div class="abs-arrow arrow23-m" style="left:23.34%;top:36.26%;width:33.66%;">
+        <img src="https://www.figma.com/api/mcp/asset/3946df4f-5aea-42ab-be8f-c5964269695b" alt="" style="transform:scaleX(-1);width:100%;display:block;" />
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="abs-step step3-m" style="left:7.53%;top:66.67%;width:45.18%;">
+        <div class="step-pill" style="padding-left:27.67%;">
+          <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;3</span>
+          <span class="pill-r navy">清掃後の綺麗なダクト</span>
+        </div>
+        <img class="step-photo step-border" src="https://www.figma.com/api/mcp/asset/7c270aa8-9f2c-4726-8378-cde3bd89c048" alt="清掃後" />
+      </div>
+
+      <!-- ラベル3「ダクト交換も行っております」 -->
+      <div class="abs-label label3-m" style="left:60.32%;top:78.43%;width:31.17%;">
+        <p class="navy">ダクト交換も行っております</p>
+        <p class="navy fw700">お気軽にご相談下さい！</p>
+      </div>
+
+    </div>
+
+    <!-- 換気ダクト清掃ムービー -->
+    <div class="movie-section">
+      <div class="movie-title-badge bg-yellow">
+        <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px); text-align:center;">『換気ダクト清掃ムービー』</p>
+      </div>
+      <div class="movie-photos-row">
+        <div class="movie-left-col">
+          <div class="movie-photo"><img src="https://www.figma.com/api/mcp/asset/b10c102b-fb94-4a0d-8e6f-6fbc06437e56" alt="清掃ムービー" /></div>
+          <div class="movie-btn-wrap" style="margin-top:clamp(16px,1.563vw,30px);">
+            <button class="btn-diagnosis">▶︎今すぐ無料診断する</button>
+          </div>
+        </div>
+        <div class="movie-person-photo"><img src="https://www.figma.com/api/mcp/asset/3c34726a-617b-499d-8570-81a3e922bc85" alt="" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 9. 選ばれる３つの理由 ===== -->
+  <section class="sec-reasons">
+    <div class="inner-1450">
+      <!-- 選ばれる３つの理由 -->
+      <div class="hl-wrap" style="margin-bottom:clamp(20px,2.604vw,50px);">
+        <div class="hl"></div>
+        <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">選ばれる３つの理由</p>
+      </div>
+      <div class="reasons-white-card">
+        <div class="reason-item">
+          <p class="reason-num" style="color:#33a2fa;">01</p>
+          <div class="reason-body">
+            <div class="reason-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">年間1,000件以上の清掃施工実績</p></div>
+            <p class="reason-desc">ダクト清掃も含め、最適な清掃プランをご提案。マンション・戸建て・店舗まで幅広くご対応。</p>
+          </div>
+        </div>
+        <div class="row-divider"></div>
+        <div class="reason-item">
+          <p class="reason-num" style="color:#33a2fa;">02</p>
+          <div class="reason-body">
+            <div class="reason-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">専用機材とプロの技術</p></div>
+            <p class="reason-desc">専門スタッフが専用機材と豊富な経験を活かし、ダクト内部の汚れをしっかり除去します。</p>
+          </div>
+        </div>
+        <div class="row-divider"></div>
+        <div class="reason-item">
+          <p class="reason-num" style="color:#33a2fa;">03</p>
+          <div class="reason-body">
+            <div class="reason-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">ダクト交換・高所作業にも対応</p></div>
+            <p class="reason-desc">清掃からダクト交換、天井裏・高所作業まで自社対応のため、工期短縮とコスト削減を実現します。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- お客様の声 -->
+      <div class="reviews-section">
+        <div class="hl-wrap" style="margin-bottom:27px;">
+          <div class="hl"></div>
+          <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">たくさんのお客様から<br>喜びの声が届いています。</p>
+        </div>
+        <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:30px;">清掃サービスに1000件以上の口コミ、平均評価は4.8。多くのお客様からご満足いただいています!</p>
+        <div class="reviews-white-card">
+          <div class="review-row">
+            <div class="review-text-col">
+              <div class="review-hd bg-navy"><p class="white fw500 lh-n" style="font-size:clamp(14px,1.25vw,24px);">年の瀬のご対応ありがとうございました!</p></div>
+              <div class="review-meta">
+                <span class="navy fw700" style="font-size:clamp(14px,1.25vw,24px);">nikiさん</span>
+                <span style="font-size:clamp(14px,1.25vw,24px); color:#f39c12;">★★★★★　5.0</span>
+              </div>
+              <p class="navy review-body">今回は年の瀬の忙しい時期にも関わらず丁寧な作業ありがとうございました!詳しく説明いただき、アフターケアも丁寧に説明していただきました。おかげでスッキリして年越しを迎えられます!またお願いいたします!<br>丁寧・親切な対応に感謝しています!</p>
+            </div>
+            <div class="review-photo"><img src="https://www.figma.com/api/mcp/asset/f447c4d2-97c1-4132-87db-43c6c204afca" alt="" /></div>
+          </div>
+          <div class="row-divider"></div>
+          <div class="review-row">
+            <div class="review-text-col">
+              <div class="review-hd bg-navy"><p class="white fw500 lh-n" style="font-size:clamp(14px,1.25vw,24px);">丁寧・親切な対応に感謝しています!!</p></div>
+              <div class="review-meta">
+                <span class="navy fw700" style="font-size:clamp(14px,1.25vw,24px);">はるさん</span>
+                <span style="font-size:clamp(14px,1.25vw,24px); color:#f39c12;">★★★★★　5.0</span>
+              </div>
+              <p class="navy review-body">作業内容の説明がとても丁寧でした。隣の店舗に水漏れさせてしまいすごく不安な中、作業中にもずっと話を聞いていただき、気持ちがすこし落ち着きました。ありがとうございました。<br>安心してお願いできる業者さんです!</p>
+            </div>
+            <div class="review-photo"><img src="https://www.figma.com/api/mcp/asset/086592a6-83ba-4556-80f9-c863332dc57c" alt="" /></div>
+          </div>
+          <div class="row-divider"></div>
+          <div class="review-row">
+            <div class="review-text-col">
+              <div class="review-hd bg-navy"><p class="white fw500 lh-n" style="font-size:clamp(14px,1.25vw,24px);">安心してお願いできる業者さんです!</p></div>
+              <div class="review-meta">
+                <span class="navy fw700" style="font-size:clamp(14px,1.25vw,24px);">えみさん</span>
+                <span style="font-size:clamp(14px,1.25vw,24px); color:#f39c12;">★★★★★　5.0</span>
+              </div>
+              <p class="navy review-body">とても親切にしてくださいました(´人｀)本当にありがとうございました! また、次回もお願いしたいです(^^♪ 安心してお願いできる業者さんです! また、よろしくお願いします。</p>
+            </div>
+            <div class="review-photo"><img src="https://www.figma.com/api/mcp/asset/c11b4b9c-fa4b-409b-86bc-3eb8e48cc061" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 10. 換気ダクト・値段 ===== -->
+  <section class="sec-pricing">
+    <div class="inner-1450">
+
+      <!-- 作業の流れ -->
+      <div class="flow-section">
+        <div class="hl-wrap" style="margin-bottom:clamp(20px,2.604vw,50px);">
+          <div class="hl"></div>
+          <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">換気ダクト清掃の作業の流れ</p>
+        </div>
+        <div class="flow-white-card">
+          <div class="flow-item">
+            <p class="flow-num" style="color:#33a2fa;">01</p>
+            <div class="flow-body">
+              <div class="flow-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); white-space:nowrap;">作業前のご説明</p></div>
+              <p class="flow-desc">当日の作業内容や注意事項をご説明します。</p>
+            </div>
+          </div>
+          <div class="row-divider"></div>
+          <div class="flow-item">
+            <p class="flow-num" style="color:#33a2fa;">02</p>
+            <div class="flow-body">
+              <div class="flow-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); white-space:nowrap;">室内の養生・機材準備</p></div>
+              <p class="flow-desc">家具や床を保護シートで養生し、専用機材を搬入・設置します。</p>
+            </div>
+          </div>
+          <div class="row-divider"></div>
+          <div class="flow-item">
+            <p class="flow-num" style="color:#33a2fa;">03</p>
+            <div class="flow-body">
+              <div class="flow-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); white-space:nowrap;">清掃前の確認</p></div>
+              <p class="flow-desc">ダクトに清掃口を設けて内部にアクセスし、汚れの状態を確認します。</p>
+            </div>
+          </div>
+          <div class="row-divider"></div>
+          <div class="flow-item">
+            <p class="flow-num" style="color:#33a2fa;">04</p>
+            <div class="flow-body">
+              <div class="flow-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); white-space:nowrap;">ダクト内部の清掃</p></div>
+              <p class="flow-desc">吹出口・吸込口（制気口）を取り外して養生し、集塵機とコンプレッサーを使って、高圧エアと専用ブラシで内部の汚れを除去します。あわせて、取り外した制気口も丁寧に洗浄します。</p>
+            </div>
+          </div>
+          <div class="row-divider"></div>
+          <div class="flow-item">
+            <p class="flow-num" style="color:#33a2fa;">05</p>
+            <div class="flow-body">
+              <div class="flow-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); white-space:nowrap;">部品洗浄</p></div>
+              <p class="flow-desc">吹出口・吸込口（制気口）を洗浄します。</p>
+            </div>
+          </div>
+          <div class="row-divider"></div>
+          <div class="flow-item">
+            <p class="flow-num" style="color:#33a2fa;">06</p>
+            <div class="flow-body">
+              <div class="flow-title-tag bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px); white-space:nowrap;">完了報告</p></div>
+              <p class="flow-desc">清掃前後を比較し、結果をご報告します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 料金 -->
+      <div class="pricing-section">
+        <div style="margin-bottom:16px;">
+          <p class="navy fw700 lh-n" style="font-size:clamp(22px,2.5vw,48px);">高品質な清掃サービスを</p>
+          <div class="hl-wrap">
+            <div class="hl"></div>
+            <p class="navy fw700 lh-n" style="font-size:clamp(22px,2.5vw,48px);">格安でご提供。</p>
+          </div>
+        </div>
+        <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:39px;">基本的なサービスと料金をご案内いたします。</p>
+        <div class="pricing-img-wrap">
+          <img src="https://www.figma.com/api/mcp/asset/cf173ccc-4633-4fc8-a53a-cafd5541700e" alt="料金表" />
+        </div>
+        <div class="pricing-note bg-white">
+          <p class="navy" style="font-size:clamp(12px,1.25vw,24px); line-height:1.7;">※上記はマンション・戸建ての換気ダクト（浴室、洗面所、トイレ、レンジフード、部屋）の料金（税込）です。飲食店のフードダクトは別途お見積もりが必要です。グリスフィルターは別途¥5,000追加となります。電気・水道・ガスをお借りします。事前にうかがった状態と著しく異なる場合、追加料金が発生したり作業ができない場合がございます。追加料金が発生する場合は作業実施前にお伝えいたします。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 11. 最後のCTA ===== -->
+  <section class="sec-cta bg-white">
+    <div class="cta-wrap">
+      <div style="text-align:center">
+        <p class="navy fw700 lh-n" style="font-size:clamp(20px,2.083vw,40px); text-align:center;">まずはご相談下さい。</p>
+        <div class="hl-wrap" style="text-align:center;">
+          <div class="hl"></div>
+          <p class="navy fw700 lh-n" style="font-size:clamp(20px,2.083vw,40px); text-align:center;">親切・丁寧にご対応致します。</p>
+        </div>
+      </div>
+      <div class="cta-buttons">
+        <button class="btn-consult">無料でご相談</button>
+        <div class="btn-tel">
+          <span class="btn-tel-label">電話で問い合わせ</span>
+          <div class="btn-tel-divider"></div>
+          <div class="btn-tel-num-wrap">
+            <p class="btn-tel-num">060-6152-6364</p>
+            <p class="btn-tel-sub">緊急時にもご対応させて頂きます</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </div><!-- /.main-content -->
+</body>
+</html>
