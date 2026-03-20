@@ -14,7 +14,7 @@ ecocleanlp/
 │   └── kanki_dakuto_lp.css    # LPスタイルシート + アニメーション
 ├── js/
 │   └── kanki_dakuto_lp.js     # アニメーションスクリプト
-└── images/                    # 画像ファイル（39枚）
+└── images/                    # 画像ファイル（WebP形式）
 ```
 
 ---
@@ -71,7 +71,7 @@ https://swell-theme.com/
 
 | アニメーション | 対象 | 実装方法 |
 |---|---|---|
-| ヒーロースライドイン | 「毎日吸ってる空気」タグ・「本当にキレイ？」・バナー | CSS `@keyframes`（ページ読み込み時） |
+| ヒーロースライドイン | 「毎日吸っている空気」タグ・「本当にキレイですか？」・バナー | CSS `@keyframes`（ページ読み込み時） |
 | スクロールフェードイン | 各カード・セクション全体 | `IntersectionObserver` + `.fade-in` / `.visible` クラス |
 | 数字カウントアップ | リスクセクションの「最大30%」「約7割」 | `IntersectionObserver` + `setInterval` |
 | ボタンホバー | 「無料でご相談」「今すぐ無料診断する」 | CSS `transition` + `transform` |
@@ -106,44 +106,46 @@ const fadeTargets = [
 
 ## 画像一覧
 
+※ すべての画像はWebP形式（`.webp`）です。
+
 | ファイル名 | 用途 |
 |---|---|
-| logo.png | ヘッダーロゴ |
-| hero-photo-left.jpg | ヒーロー左写真 |
-| hero-photo-right.jpg | ヒーロー右写真 |
-| hero-machine.jpg | ヒーロー機械写真 |
-| hero-duct.jpg | ヒーローダクト写真 |
-| benefit-icon-1.png | ベネフィットアイコン（風量） |
-| benefit-icon-2.png | ベネフィットアイコン（音） |
-| benefit-icon-3.png | ベネフィットアイコン（トイレ） |
-| benefit-icon-4.png | ベネフィットアイコン（部屋） |
-| what-is-duct.jpg | 換気ダクトとは説明画像 |
-| arrow-down.png | 下向き矢印 |
-| customer-home.png | 一般家庭アイコン |
-| customer-restaurant.png | 飲食店アイコン |
-| dirt-silicone-fan.jpg | 汚れ写真（換気扇シリコンファン） |
-| dirt-range-hood.jpg | 汚れ写真（レンジフード） |
-| dirt-toilet-room.jpg | 汚れ写真（トイレ・部屋） |
-| risk-health-1.jpg | 健康リスク写真1 |
-| risk-health-2.jpg | 健康リスク写真2 |
-| risk-cost-1.jpg | 経済リスク写真1 |
-| risk-cost-2.jpg | 経済リスク写真2 |
-| risk-fire-1.jpg | 火災リスク写真1 |
-| risk-fire-2.jpg | 火災リスク写真2 |
-| service-high-pressure.jpg | サービス（高圧洗浄） |
-| service-all-types.jpg | サービス（全種類対応） |
-| service-schedule.jpg | サービス（都合に合わせて対応） |
-| service-replacement.jpg | サービス（ダクト交換） |
-| map-osaka.png | 対応エリアマップ（大阪府） |
-| map-hyogo.png | 対応エリアマップ（兵庫県） |
-| underline-deco.png | 下線デコレーション |
-| step1-before.jpg | 清掃STEP1（清掃前） |
-| arrow-step.png | STEPの矢印 |
-| step2-cleaning.jpg | 清掃STEP2（除菌） |
-| step3-after.jpg | 清掃STEP3（清掃後） |
-| movie-thumbnail.jpg | 動画サムネイル |
-| staff-person.jpg | スタッフ写真 |
-| review-photo-1.jpg | 口コミ写真1 |
-| review-photo-2.jpg | 口コミ写真2 |
-| review-photo-3.jpg | 口コミ写真3 |
-| pricing-table.png | 料金表 |
+| logo.webp | ヘッダーロゴ |
+| hero-photo-left.webp | ヒーロー左写真 |
+| hero-photo-right.webp | ヒーロー右写真 |
+| hero-machine.webp | ヒーロー機械写真 |
+| hero-duct.webp | ヒーローダクト写真 |
+| benefit-icon-1.webp | ベネフィットアイコン（風量） |
+| benefit-icon-2.webp | ベネフィットアイコン（音） |
+| benefit-icon-3.webp | ベネフィットアイコン（トイレ） |
+| benefit-icon-4.webp | ベネフィットアイコン（部屋） |
+| what-is-duct.webp | 換気ダクトとは説明画像 |
+| arrow-down.svg | 下向き矢印（SVG） |
+| underline-deco.svg | 下線デコレーション（SVG） |
+| customer-home.webp | 一般家庭アイコン |
+| customer-restaurant.webp | 飲食店アイコン |
+| dirt-silicone-fan.webp | 汚れ写真（換気扇シリコンファン） |
+| dirt-range-hood.webp | 汚れ写真（レンジフード） |
+| dirt-toilet-room.webp | 汚れ写真（トイレ・部屋） |
+| risk-health-1.webp | 健康リスク写真1 |
+| risk-health-2.webp | 健康リスク写真2 |
+| risk-cost-1.webp | 経済リスク写真1 |
+| risk-cost-2.webp | 経済リスク写真2 |
+| risk-fire-1.webp | 火災リスク写真1 |
+| risk-fire-2.webp | 火災リスク写真2 |
+| service-high-pressure.webp | サービス（高圧洗浄） |
+| service-all-types.webp | サービス（全種類対応） |
+| service-schedule.webp | サービス（都合に合わせて対応） |
+| service-replacement.webp | サービス（ダクト交換） |
+| map-osaka.webp | 対応エリアマップ（大阪府） |
+| map-hyogo.webp | 対応エリアマップ（兵庫県） |
+| step1-before.webp | 清掃STEP1（清掃前） |
+| arrow-step.webp | STEPの矢印 |
+| step2-cleaning.webp | 清掃STEP2（除菌） |
+| step3-after.webp | 清掃STEP3（清掃後） |
+| movie-thumbnail.webp | 動画サムネイル |
+| staff-person.webp | スタッフ写真 |
+| review-photo-1.webp | 口コミ写真1 |
+| review-photo-2.webp | 口コミ写真2 |
+| review-photo-3.webp | 口コミ写真3 |
+| pricing-table.webp | 料金表 |
