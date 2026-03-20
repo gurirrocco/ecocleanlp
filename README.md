@@ -9,7 +9,6 @@ SWELL子テーマ用 換気ダクト清掃ランディングページ
 ```
 ecocleanlp/
 ├── style.css                  # テーマ宣言（必須）
-├── functions.php              # 親テーマ（SWELL）読み込み
 ├── kanki_dakuto_lp.php        # LPページテンプレート
 ├── css/
 │   └── kanki_dakuto_lp.css    # LPスタイルシート + アニメーション
