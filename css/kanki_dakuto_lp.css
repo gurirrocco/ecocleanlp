@@ -1274,6 +1274,8 @@ p { line-height: 1.6; }
   .movie-left-col { width: 100%; }
   .movie-photo { width: 100%; max-width: 400px; height: 200px; }
   .movie-person-photo { width: 100%; max-width: 400px; }
+  .movie-title-badge { width: 90vw; }
+  .movie-title-badge p { font-size: 5vw !important; white-space: nowrap; }
 
   /* Reasons / Flow */
   .reasons-white-card,
