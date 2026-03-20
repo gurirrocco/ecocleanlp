@@ -1,4 +1,4 @@
-﻿<?php /* Template Name: LPページ */ ?>
+﻿<?php /* Template Name: kanki-dakuto_lp */ ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
