@@ -1468,7 +1468,6 @@ p { line-height: 1.6; }
 .hero-air-tag      { animation: slideInLeft  0.7s ease 0.1s both; }
 .hero-question     { animation: slideInRight 0.7s ease 0.3s both; }
 .hero-bottom-banner { animation: slideInUp   0.6s ease 0.5s both; }
-.hero-machine-photo { animation: slideInUp   0.8s ease 0.2s both; }
 
 /* ----- スクロールフェードイン ----- */
 .fade-in {
