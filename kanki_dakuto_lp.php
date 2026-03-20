@@ -164,7 +164,7 @@
 
         <!-- 下矢印 -->
         <div class="arrow-down-wrap">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down.png" alt="" style="transform:scaleY(-1); width:270px;" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down.svg" alt="" style="transform:scaleY(-1); width:270px;" />
         </div>
 
         <!-- こんなお悩みありませんか -->
@@ -399,7 +399,7 @@
       </div>
       <div class="tech-subtitle-wrap">
         <p class="navy fw700 lh-n text-center" style="font-size:clamp(20px,3.333vw,64px);">ダクト内部の汚れを徹底除去します！</p>
-        <div class="tech-underline"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/underline-deco.png" alt="" /></div>
+        <div class="tech-underline"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/underline-deco.svg" alt="" /></div>
       </div>
       <p class="navy text-center" style="font-size:clamp(14px,1.25vw,24px); line-height:1.8;">
         見えないダクト内部の汚れは、空気環境や設備の効率に大きく影響します。<br>
