@@ -1336,7 +1336,8 @@ p { line-height: 1.6; }
   .movie-photo { width: 100%; max-width: 400px; height: 200px; }
   .movie-person-photo { width: 100%; max-width: 400px; }
   .movie-title-badge { width: 90vw; }
-  .movie-title-badge p { font-size: 5vw !important; white-space: normal; }
+  .movie-title-badge p:first-child { font-size: 5vw !important; white-space: normal; }
+  .movie-title-badge p:last-child { font-size: 3.5vw !important; white-space: normal; }
 
   /* Reasons / Flow */
   .reasons-white-card,
