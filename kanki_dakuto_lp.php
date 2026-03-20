@@ -18,7 +18,7 @@
   <!-- ===== HEADER ===== -->
   <header class="header">
     <div class="header-logo-row">
-      <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="エコクリーン" />
+      <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.webp" alt="エコクリーン" />
     </div>
     <div class="header-blue-bar"></div>
   </header>
@@ -76,7 +76,7 @@
                 <p style="font-size:clamp(16px,1.667vw,32px)">少なくなった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-1.png" alt="" /></div>
+            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-1.webp" alt="" /></div>
           </div>
           <div class="benefit-divider-v"></div>
           <div class="benefit-item">
@@ -87,7 +87,7 @@
                 <p style="font-size:clamp(16px,1.667vw,32px)">静かになった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-2.png" alt="" /></div>
+            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-2.webp" alt="" /></div>
           </div>
         </div>
         <div class="benefit-divider-h"></div>
@@ -100,7 +100,7 @@
                 <p>解消された！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-3.png" alt="" /></div>
+            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-3.webp" alt="" /></div>
           </div>
           <div class="benefit-divider-v"></div>
           <div class="benefit-item">
@@ -111,7 +111,7 @@
                 <p>少なくなった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-4.png" alt="" /></div>
+            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-4.webp" alt="" /></div>
           </div>
         </div>
       </div>
@@ -180,7 +180,7 @@
             <div class="customer-card-hd" style="background:#293d86;">
               <p class="white fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px); white-space:nowrap;">一般家庭のお客様</p>
             </div>
-            <div class="customer-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-home.png" alt="" /></div>
+            <div class="customer-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-home.webp" alt="" /></div>
             <ul class="customer-list">
               <li>・換気扇を回すと嫌な臭いがする</li>
               <li>・浴室のカビがすぐ増える</li>
@@ -193,7 +193,7 @@
             <div class="customer-card-hd" style="background:#fffa26;">
               <p class="navy fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px); white-space:nowrap;">飲食店オーナー様</p>
             </div>
-            <div class="customer-icon" style="width:clamp(180px,21.094vw,405px);height:clamp(90px,10.547vw,202px);"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-restaurant.png" alt="" /></div>
+            <div class="customer-icon" style="width:clamp(180px,21.094vw,405px);height:clamp(90px,10.547vw,202px);"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-restaurant.webp" alt="" /></div>
             <ul class="customer-list">
               <li>・ダクトの油汚れが気になる</li>
               <li>・火災リスクが心配</li>
@@ -384,8 +384,8 @@
           </div>
         </div>
         <div class="region-maps-row">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-osaka.png" alt="大阪府" />
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-hyogo.png" alt="兵庫県" />
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-osaka.webp" alt="大阪府" />
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-hyogo.webp" alt="兵庫県" />
         </div>
       </div>
     </div>
@@ -425,7 +425,7 @@
 
       <!-- 矢印 1→2 (右上方向) -->
       <div class="abs-arrow arrow12-m" style="left:50.65%;top:12.57%;width:24.61%;">
-        <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.png" alt="" style="transform:rotate(-5.39deg);width:100%;display:block;" />
+        <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.webp" alt="" style="transform:rotate(-5.39deg);width:100%;display:block;" />
       </div>
 
       <!-- ラベル1「作業前に養生で」 -->
@@ -451,7 +451,7 @@
 
       <!-- 矢印 2→3 (左下方向) -->
       <div class="abs-arrow arrow23-m" style="left:23.34%;top:36.26%;width:33.66%;">
-        <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.png" alt="" style="transform:scaleX(-1);width:100%;display:block;" />
+        <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.webp" alt="" style="transform:scaleX(-1);width:100%;display:block;" />
       </div>
 
       <!-- STEP 3 -->
@@ -649,7 +649,7 @@
         </div>
         <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:39px; text-align:center;">基本的なサービスと料金をご案内いたします。</p>
         <div class="pricing-img-wrap">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pricing-table.png" alt="料金表" />
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pricing-table.webp" alt="料金表" />
         </div>
         <!-- SP用：プランカード縦表示 -->
         <div class="sp-pricing-cards">
