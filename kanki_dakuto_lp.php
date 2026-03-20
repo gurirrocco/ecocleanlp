@@ -673,5 +673,6 @@
   </section>
 
   </div><!-- /.main-content -->
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/kanki_dakuto_lp.js" defer></script>
 </body>
 </html>
