@@ -54,15 +54,10 @@
   <!-- ===== 2. 換気ダクト清掃で解決 ===== -->
   <section class="sec-benefits">
     <div class="inner-1349">
-      <div class="sec-title-wrap">
-        <p class="sec-title navy fw700 lh-n" style="font-size:0;">
-          <span style="font-size:clamp(24px,2.5vw,48px)">換気ダクト清掃</span><span style="font-size:clamp(18px,1.875vw,36px)">で、</span>
-        </p>
+      <div class="sec-title-wrap" style="text-align:center;">
         <div class="hl-wrap">
           <div class="hl"></div>
-          <p class="sec-title navy fw700 lh-n" style="font-size:0;">
-            <span style="font-size:clamp(24px,2.5vw,48px)">こんなお悩み</span><span style="font-size:clamp(18px,1.875vw,36px)">も</span><span style="font-size:clamp(24px,2.5vw,48px)">解決！</span>
-          </p>
+          <p class="sec-title navy fw700 lh-n" style="font-size:clamp(28px,3vw,58px); white-space:nowrap;">換気ダクト清掃で、暮らしの悩みをスッキリ解決！</p>
         </div>
       </div>
       <div class="benefits-white-card">
@@ -128,9 +123,9 @@
         </div>
       </div>
       <div class="cta-buttons">
-        <button class="btn-consult">無料でご相談</button>
+        <button class="btn-consult"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:6px;"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>無料でご相談</button>
         <div class="btn-tel">
-          <span class="btn-tel-label">電話で問い合わせ</span>
+          <span class="btn-tel-label"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:4px;"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>電話で問い合わせ</span>
           <div class="btn-tel-divider"></div>
           <div class="btn-tel-num-wrap">
             <p class="btn-tel-num">060-6152-6364</p>
@@ -246,9 +241,11 @@
   <!-- ===== 6. 放置するとどうなる ===== -->
   <section class="sec-risks">
     <div class="inner-1356">
-      <div class="hl-wrap" style="margin-bottom:clamp(20px,2.604vw,50px);">
-        <div class="hl"></div>
-        <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">放置するとどうなる？</p>
+      <div style="text-align:center; margin-bottom:clamp(20px,2.604vw,50px);">
+        <div class="hl-wrap">
+          <div class="hl"></div>
+          <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">放置するとどうなる？</p>
+        </div>
       </div>
 
       <!-- 衛生リスク -->
@@ -340,7 +337,7 @@
     <div class="inner-1450">
       <div class="services-white-card">
         <!-- タイトル -->
-        <div class="service-title-row">
+        <div class="service-title-row" style="justify-content:center;">
           <div class="hl-wrap">
             <div class="hl"></div>
             <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">サービス紹介</p>
@@ -471,13 +468,14 @@
     <!-- 換気ダクト清掃ムービー -->
     <div class="movie-section">
       <div class="movie-title-badge bg-yellow">
-        <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px); text-align:center;">『換気ダクト清掃ムービー』</p>
+        <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px); text-align:center;">『全部見せます！換気ダクト清掃』</p>
+        <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.5vw,28px); text-align:center;">お部屋を汚さず丁寧に作業いたします。</p>
       </div>
       <div class="movie-photos-row">
         <div class="movie-left-col">
           <div class="movie-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/movie-thumbnail.jpg" alt="清掃ムービー" /></div>
           <div class="movie-btn-wrap" style="margin-top:clamp(16px,1.563vw,30px);">
-            <button class="btn-diagnosis">▶︎今すぐ無料診断する</button>
+            <button class="btn-diagnosis">▶今すぐ無料でご相談</button>
           </div>
         </div>
         <div class="movie-person-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/staff-person.jpg" alt="" /></div>
@@ -489,9 +487,11 @@
   <section class="sec-reasons">
     <div class="inner-1450">
       <!-- 選ばれる３つの理由 -->
-      <div class="hl-wrap" style="margin-bottom:clamp(20px,2.604vw,50px);">
-        <div class="hl"></div>
-        <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">選ばれる３つの理由</p>
+      <div style="text-align:center; margin-bottom:clamp(20px,2.604vw,50px);">
+        <div class="hl-wrap">
+          <div class="hl"></div>
+          <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">選ばれる３つの理由</p>
+        </div>
       </div>
       <div class="reasons-white-card">
         <div class="reason-item">
@@ -521,9 +521,11 @@
 
       <!-- お客様の声 -->
       <div class="reviews-section">
-        <div class="hl-wrap" style="margin-bottom:27px;">
-          <div class="hl"></div>
-          <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">たくさんのお客様から<br>喜びの声が届いています。</p>
+        <div style="text-align:center; margin-bottom:27px;">
+          <div class="hl-wrap">
+            <div class="hl"></div>
+            <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">たくさんのお客様から<br>喜びの声が届いています。</p>
+          </div>
         </div>
         <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:30px;">清掃サービスに1000件以上の口コミ、平均評価は4.8。多くのお客様からご満足いただいています!</p>
         <div class="reviews-white-card">
@@ -573,9 +575,11 @@
 
       <!-- 作業の流れ -->
       <div class="flow-section">
-        <div class="hl-wrap" style="margin-bottom:clamp(20px,2.604vw,50px);">
-          <div class="hl"></div>
-          <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">換気ダクト清掃の作業の流れ</p>
+        <div style="text-align:center; margin-bottom:clamp(20px,2.604vw,50px);">
+          <div class="hl-wrap">
+            <div class="hl"></div>
+            <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">換気ダクト清掃の作業の流れ</p>
+          </div>
         </div>
         <div class="flow-white-card">
           <div class="flow-item">
@@ -630,7 +634,7 @@
 
       <!-- 料金 -->
       <div class="pricing-section">
-        <div style="margin-bottom:16px;">
+        <div style="margin-bottom:16px; text-align:center;">
           <p class="navy fw700 lh-n" style="font-size:clamp(22px,2.5vw,48px);">高品質な清掃サービスを</p>
           <div class="hl-wrap">
             <div class="hl"></div>
@@ -659,9 +663,9 @@
         </div>
       </div>
       <div class="cta-buttons">
-        <button class="btn-consult">無料でご相談</button>
+        <button class="btn-consult"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:6px;"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>無料でご相談</button>
         <div class="btn-tel">
-          <span class="btn-tel-label">電話で問い合わせ</span>
+          <span class="btn-tel-label"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:4px;"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>電話で問い合わせ</span>
           <div class="btn-tel-divider"></div>
           <div class="btn-tel-num-wrap">
             <p class="btn-tel-num">060-6152-6364</p>

@@ -893,9 +893,10 @@ p { line-height: 1.6; }
 }
 .movie-title-badge {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: clamp(4px, 0.26vw, 5px) 0;
+  padding: clamp(8px, 0.521vw, 10px) clamp(16px, 1.563vw, 30px);
   width: clamp(300px, 44.844vw, 861px);
 }
 .movie-photos-row {
@@ -953,7 +954,7 @@ p { line-height: 1.6; }
 }
 .reason-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: clamp(10px, 1.25vw, 24px);
 }
 .reason-num {
@@ -1054,7 +1055,7 @@ p { line-height: 1.6; }
 }
 .flow-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: clamp(10px, 1.25vw, 24px);
 }
 .flow-num {
