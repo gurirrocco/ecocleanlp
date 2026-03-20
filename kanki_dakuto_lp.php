@@ -401,7 +401,7 @@
         </p>
       </div>
       <div class="tech-subtitle-wrap">
-        <p class="navy fw700 lh-n text-center" style="font-size:clamp(20px,3.333vw,64px);">ダクト内部の汚れを徹底除去します！</p>
+        <p class="navy fw700 lh-n text-center" style="font-size:clamp(20px,2.6vw,50px); white-space:nowrap;">ダクト内部の汚れを徹底除去します！</p>
         <div class="tech-underline"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/underline-deco.svg" alt="" /></div>
       </div>
       <p class="navy text-center" style="font-size:clamp(14px,1.25vw,24px); line-height:1.8;">
