@@ -1,4 +1,4 @@
-<?php /* Template Name: LPページ */ ?>
+﻿<?php /* Template Name: LPページ */ ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -15,7 +15,7 @@
   <!-- ===== HEADER ===== -->
   <header class="header">
     <div class="header-logo-row">
-      <img class="logo" src="https://www.figma.com/api/mcp/asset/17e0115f-5ead-4bfe-8c2d-576ea5ffcf4d" alt="エコクリーン" />
+      <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="エコクリーン" />
     </div>
     <div class="header-blue-bar"></div>
   </header>
@@ -23,8 +23,8 @@
   <!-- ===== 1. HERO ===== -->
   <section class="hero">
     <div class="hero-photo-row">
-      <img class="hero-photo" src="https://www.figma.com/api/mcp/asset/ea09a599-0393-45b6-839d-f7cba2363221" alt="" />
-      <img class="hero-photo" src="https://www.figma.com/api/mcp/asset/e8adc065-2827-475f-ab79-421efc886918" alt="" />
+      <img class="hero-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-photo-left.jpg" alt="" />
+      <img class="hero-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-photo-right.jpg" alt="" />
     </div>
     <div class="hero-overlay">
       <!-- 左上：毎日吸っている空気 -->
@@ -37,11 +37,11 @@
       </div>
       <!-- 中央の写真 -->
       <div class="hero-machine-photo">
-        <img src="https://www.figma.com/api/mcp/asset/153d0d3a-8a23-4fda-ab76-f1df72911777" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-machine.jpg" alt="" />
       </div>
       <!-- 右の大きい写真 -->
       <div class="hero-duct-photo">
-        <img src="https://www.figma.com/api/mcp/asset/e3b50c16-43e4-4371-ab0d-1590b6cffff9" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-duct.jpg" alt="" />
       </div>
       <!-- 下部バナー -->
       <div class="hero-bottom-banner">
@@ -75,7 +75,7 @@
                 <p style="font-size:clamp(16px,1.667vw,32px)">少なくなった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img src="https://www.figma.com/api/mcp/asset/eb538148-affc-42a5-a833-d54902e9459d" alt="" /></div>
+            <div class="benefit-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-1.png" alt="" /></div>
           </div>
           <div class="benefit-divider-v"></div>
           <div class="benefit-item">
@@ -86,7 +86,7 @@
                 <p style="font-size:clamp(16px,1.667vw,32px)">静かになった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img src="https://www.figma.com/api/mcp/asset/7189692b-4223-4c36-aa77-d000ced57be6" alt="" /></div>
+            <div class="benefit-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-2.png" alt="" /></div>
           </div>
         </div>
         <div class="benefit-divider-h"></div>
@@ -99,7 +99,7 @@
                 <p>解消された！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img src="https://www.figma.com/api/mcp/asset/2fc05bb2-c067-4a95-8653-a7cc9e545b01" alt="" /></div>
+            <div class="benefit-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-3.png" alt="" /></div>
           </div>
           <div class="benefit-divider-v"></div>
           <div class="benefit-item">
@@ -110,7 +110,7 @@
                 <p>少なくなった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img src="https://www.figma.com/api/mcp/asset/16d97c2a-9970-4291-be6c-d31e24a4ee00" alt="" /></div>
+            <div class="benefit-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-4.png" alt="" /></div>
           </div>
         </div>
       </div>
@@ -158,13 +158,13 @@
             <p class="what-is-desc">換気ダクト清掃とは、建物内の空気を循環・排出するために設置されたダクト（風道）の内部に蓄積した汚れ、ほこり、油脂、カビなどを専門的な機器を使って除去・洗浄する作業のことです。</p>
           </div>
           <div class="what-is-img">
-            <img src="https://www.figma.com/api/mcp/asset/8bd72bb4-832d-4b73-ba91-ea35feed9feb" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/what-is-duct.jpg" alt="" />
           </div>
         </div>
 
         <!-- 下矢印 -->
         <div class="arrow-down-wrap">
-          <img src="https://www.figma.com/api/mcp/asset/70a7169c-7ec4-49f6-b7ef-f7a579aef635" alt="" style="transform:scaleY(-1); width:270px;" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down.png" alt="" style="transform:scaleY(-1); width:270px;" />
         </div>
 
         <!-- こんなお悩みありませんか -->
@@ -179,7 +179,7 @@
             <div class="customer-card-hd" style="background:#293d86;">
               <p class="white fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px); white-space:nowrap;">一般家庭のお客様</p>
             </div>
-            <div class="customer-icon"><img src="https://www.figma.com/api/mcp/asset/86044db5-d3b1-41ef-9b3f-f1230ba41e43" alt="" /></div>
+            <div class="customer-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-home.png" alt="" /></div>
             <ul class="customer-list">
               <li>・換気扇を回すと嫌な臭いがする</li>
               <li>・浴室のカビがすぐ増える</li>
@@ -192,7 +192,7 @@
             <div class="customer-card-hd" style="background:#fffa26;">
               <p class="navy fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px); white-space:nowrap;">飲食店オーナー様</p>
             </div>
-            <div class="customer-icon" style="width:clamp(180px,21.094vw,405px);height:clamp(90px,10.547vw,202px);"><img src="https://www.figma.com/api/mcp/asset/8839840d-9cdb-4ca4-a227-f3730c92d59d" alt="" /></div>
+            <div class="customer-icon" style="width:clamp(180px,21.094vw,405px);height:clamp(90px,10.547vw,202px);"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-restaurant.png" alt="" /></div>
             <ul class="customer-list">
               <li>・ダクトの油汚れが気になる</li>
               <li>・火災リスクが心配</li>
@@ -208,15 +208,15 @@
           <div class="dirt-label-tag">汚れのお写真</div>
           <div class="dirt-photos-row">
             <div class="dirt-photo-col">
-              <img src="https://www.figma.com/api/mcp/asset/2321cc81-b5d3-456a-a7d1-5a925afc2e4a" alt="換気扇のシロッコファン" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-silicone-fan.jpg" alt="換気扇のシロッコファン" />
               <div class="dirt-caption-tag">換気扇のシロッコファン</div>
             </div>
             <div class="dirt-photo-col">
-              <img src="https://www.figma.com/api/mcp/asset/0b82c109-51b7-4b57-9928-ab105d855011" alt="レンジフード" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-range-hood.jpg" alt="レンジフード" />
               <div class="dirt-caption-tag">レンジフード</div>
             </div>
             <div class="dirt-photo-col">
-              <img src="https://www.figma.com/api/mcp/asset/3a1adb86-1cad-4e53-b9a3-6b4542dbab6a" alt="トイレ・部屋などの換気ダクト" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-toilet-room.jpg" alt="トイレ・部屋などの換気ダクト" />
               <div class="dirt-caption-tag">トイレ・部屋などの換気ダクト</div>
             </div>
           </div>
@@ -272,8 +272,8 @@
         </div>
         <div class="risk-image-block" style="background:#f39c12;">
           <div class="risk-img-pair">
-            <img src="https://www.figma.com/api/mcp/asset/e9666f97-7ac2-46b3-9d2c-7b026b9a6cdc" alt="" />
-            <img src="https://www.figma.com/api/mcp/asset/020e88b3-dc5a-4ac8-9393-b92e6f18bad7" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-health-1.jpg" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-health-2.jpg" alt="" />
           </div>
           <p class="risk-img-caption fw700 white">見えない空気の汚れが、<br>大切なご家族の健康を蝕んでいます。</p>
         </div>
@@ -300,8 +300,8 @@
         </div>
         <div class="risk-image-block" style="background:#27ae60;">
           <div class="risk-img-pair">
-            <img src="https://www.figma.com/api/mcp/asset/04ca03fa-5764-4fc2-a15d-a14ad3374b2f" alt="" />
-            <img src="https://www.figma.com/api/mcp/asset/dd205d90-e18b-4b05-8797-2947b6d4e63f" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-cost-1.jpg" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-cost-2.jpg" alt="" />
           </div>
           <p class="risk-img-caption fw700 white">ダクト清掃は「コスト」ではなく「投資」。<br>設備や住環境を守るための大切なメンテナンスです。</p>
         </div>
@@ -326,8 +326,8 @@
         </div>
         <div class="risk-image-block" style="background:#b23e3a;">
           <div class="risk-img-pair">
-            <img src="https://www.figma.com/api/mcp/asset/a1ec3519-8715-4393-8429-dabd2340afe5" alt="" />
-            <img src="https://www.figma.com/api/mcp/asset/2d5f7351-da1a-4d65-9b1b-a505dd53e7d3" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-fire-1.jpg" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-fire-2.jpg" alt="" />
           </div>
           <p class="risk-img-caption fw700 white">定期清掃は「保険」ではなく「義務」。<br>取り返しのつかない事態になる前に対策を。</p>
         </div>
@@ -351,22 +351,22 @@
         <div class="service-cards-grid">
           <div class="service-card">
             <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">高圧洗浄 ×<br class="sp-br">専用機器</p></div>
-            <div class="service-card-img"><img src="https://www.figma.com/api/mcp/asset/ead4d7a3-799d-4fad-96a6-4d3906952859" alt="" /></div>
+            <div class="service-card-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-high-pressure.jpg" alt="" /></div>
             <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">頑固な油脂・<br>カビも徹底除去</p>
           </div>
           <div class="service-card">
             <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">全種類の<br class="sp-br">ダクトに対応</p></div>
-            <div class="service-card-img"><img src="https://www.figma.com/api/mcp/asset/3956d007-c071-40d1-ae09-e97bca6f5c06" alt="" /></div>
+            <div class="service-card-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-all-types.jpg" alt="" /></div>
             <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">浴室・洗面所・トイレ<br>レンジフード・部屋対応</p>
           </div>
           <div class="service-card">
             <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">ご都合に<br class="sp-br">合わせて対応</p></div>
-            <div class="service-card-img"><img src="https://www.figma.com/api/mcp/asset/13f606fb-d0b4-4bd6-a699-a6fc350cc9a4" alt="" /></div>
+            <div class="service-card-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-schedule.jpg" alt="" /></div>
             <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">土日・祝日作業OK<br>お客様のご都合に合わせます</p>
           </div>
           <div class="service-card">
             <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">ダクト交換・<br class="sp-br">高所作業対応</p></div>
-            <div class="service-card-img"><img src="https://www.figma.com/api/mcp/asset/ebb93e61-5ac6-49d2-8914-a334c5e1d2fe" alt="" /></div>
+            <div class="service-card-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-replacement.jpg" alt="" /></div>
             <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">劣化したダクトの交換<br>高所作業にも対応可能です</p>
           </div>
         </div>
@@ -381,8 +381,8 @@
           </div>
         </div>
         <div class="region-maps-row">
-          <img src="https://www.figma.com/api/mcp/asset/61cf7d05-8225-4b3d-9e88-b6a4058dc3ab" alt="大阪府" />
-          <img src="https://www.figma.com/api/mcp/asset/8f288a1a-8cec-4f5c-b981-b939c8638449" alt="兵庫県" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-osaka.png" alt="大阪府" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-hyogo.png" alt="兵庫県" />
         </div>
       </div>
     </div>
@@ -399,7 +399,7 @@
       </div>
       <div class="tech-subtitle-wrap">
         <p class="navy fw700 lh-n text-center" style="font-size:clamp(20px,3.333vw,64px);">ダクト内部の汚れを徹底除去します！</p>
-        <div class="tech-underline"><img src="https://www.figma.com/api/mcp/asset/8ffff70f-28bf-4639-aa98-7b158593125a" alt="" /></div>
+        <div class="tech-underline"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/underline-deco.png" alt="" /></div>
       </div>
       <p class="navy text-center" style="font-size:clamp(14px,1.25vw,24px); line-height:1.8;">
         見えないダクト内部の汚れは、空気環境や設備の効率に大きく影響します。<br>
@@ -417,12 +417,12 @@
           <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;1</span>
           <span class="pill-r navy">作業前の汚れているダクト</span>
         </div>
-        <img class="step-photo step-border" src="https://www.figma.com/api/mcp/asset/52e59f40-76e0-4d51-b531-1c83537ca075" alt="清掃前" />
+        <img class="step-photo step-border" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step1-before.jpg" alt="清掃前" />
       </div>
 
       <!-- 矢印 1→2 (右上方向) -->
       <div class="abs-arrow arrow12-m" style="left:50.65%;top:12.57%;width:24.61%;">
-        <img src="https://www.figma.com/api/mcp/asset/3946df4f-5aea-42ab-be8f-c5964269695b" alt="" style="transform:rotate(-5.39deg);width:100%;display:block;" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.png" alt="" style="transform:rotate(-5.39deg);width:100%;display:block;" />
       </div>
 
       <!-- ラベル1「作業前に養生で」 -->
@@ -437,7 +437,7 @@
           <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;2</span>
           <span class="pill-r navy">養生を行います</span>
         </div>
-        <img class="step-photo" src="https://www.figma.com/api/mcp/asset/f5e95fbc-7d0d-4a6e-9f14-1c6ba4766fa0" alt="養生" />
+        <img class="step-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step2-cleaning.jpg" alt="養生" />
       </div>
 
       <!-- ラベル2「専用機材でダクト内部を」 -->
@@ -448,7 +448,7 @@
 
       <!-- 矢印 2→3 (左下方向) -->
       <div class="abs-arrow arrow23-m" style="left:23.34%;top:36.26%;width:33.66%;">
-        <img src="https://www.figma.com/api/mcp/asset/3946df4f-5aea-42ab-be8f-c5964269695b" alt="" style="transform:scaleX(-1);width:100%;display:block;" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.png" alt="" style="transform:scaleX(-1);width:100%;display:block;" />
       </div>
 
       <!-- STEP 3 -->
@@ -457,7 +457,7 @@
           <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;3</span>
           <span class="pill-r navy">清掃後の綺麗なダクト</span>
         </div>
-        <img class="step-photo step-border" src="https://www.figma.com/api/mcp/asset/7c270aa8-9f2c-4726-8378-cde3bd89c048" alt="清掃後" />
+        <img class="step-photo step-border" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step3-after.jpg" alt="清掃後" />
       </div>
 
       <!-- ラベル3「ダクト交換も行っております」 -->
@@ -475,12 +475,12 @@
       </div>
       <div class="movie-photos-row">
         <div class="movie-left-col">
-          <div class="movie-photo"><img src="https://www.figma.com/api/mcp/asset/b10c102b-fb94-4a0d-8e6f-6fbc06437e56" alt="清掃ムービー" /></div>
+          <div class="movie-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/movie-thumbnail.jpg" alt="清掃ムービー" /></div>
           <div class="movie-btn-wrap" style="margin-top:clamp(16px,1.563vw,30px);">
             <button class="btn-diagnosis">▶︎今すぐ無料診断する</button>
           </div>
         </div>
-        <div class="movie-person-photo"><img src="https://www.figma.com/api/mcp/asset/3c34726a-617b-499d-8570-81a3e922bc85" alt="" /></div>
+        <div class="movie-person-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/staff-person.jpg" alt="" /></div>
       </div>
     </div>
   </section>
@@ -536,7 +536,7 @@
               </div>
               <p class="navy review-body">今回は年の瀬の忙しい時期にも関わらず丁寧な作業ありがとうございました!詳しく説明いただき、アフターケアも丁寧に説明していただきました。おかげでスッキリして年越しを迎えられます!またお願いいたします!<br>丁寧・親切な対応に感謝しています!</p>
             </div>
-            <div class="review-photo"><img src="https://www.figma.com/api/mcp/asset/f447c4d2-97c1-4132-87db-43c6c204afca" alt="" /></div>
+            <div class="review-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-1.jpg" alt="" /></div>
           </div>
           <div class="row-divider"></div>
           <div class="review-row">
@@ -548,7 +548,7 @@
               </div>
               <p class="navy review-body">作業内容の説明がとても丁寧でした。隣の店舗に水漏れさせてしまいすごく不安な中、作業中にもずっと話を聞いていただき、気持ちがすこし落ち着きました。ありがとうございました。<br>安心してお願いできる業者さんです!</p>
             </div>
-            <div class="review-photo"><img src="https://www.figma.com/api/mcp/asset/086592a6-83ba-4556-80f9-c863332dc57c" alt="" /></div>
+            <div class="review-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-2.jpg" alt="" /></div>
           </div>
           <div class="row-divider"></div>
           <div class="review-row">
@@ -560,7 +560,7 @@
               </div>
               <p class="navy review-body">とても親切にしてくださいました(´人｀)本当にありがとうございました! また、次回もお願いしたいです(^^♪ 安心してお願いできる業者さんです! また、よろしくお願いします。</p>
             </div>
-            <div class="review-photo"><img src="https://www.figma.com/api/mcp/asset/c11b4b9c-fa4b-409b-86bc-3eb8e48cc061" alt="" /></div>
+            <div class="review-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-3.jpg" alt="" /></div>
           </div>
         </div>
       </div>
@@ -639,7 +639,7 @@
         </div>
         <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:39px;">基本的なサービスと料金をご案内いたします。</p>
         <div class="pricing-img-wrap">
-          <img src="https://www.figma.com/api/mcp/asset/cf173ccc-4633-4fc8-a53a-cafd5541700e" alt="料金表" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pricing-table.png" alt="料金表" />
         </div>
         <div class="pricing-note bg-white">
           <p class="navy" style="font-size:clamp(12px,1.25vw,24px); line-height:1.7;">※上記はマンション・戸建ての換気ダクト（浴室、洗面所、トイレ、レンジフード、部屋）の料金（税込）です。飲食店のフードダクトは別途お見積もりが必要です。グリスフィルターは別途¥5,000追加となります。電気・水道・ガスをお借りします。事前にうかがった状態と著しく異なる場合、追加料金が発生したり作業ができない場合がございます。追加料金が発生する場合は作業実施前にお伝えいたします。</p>
