@@ -7,7 +7,10 @@
   <title>エコ・クリーン｜換気ダクト清掃</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-photo-left.jpg" />
+  <link rel="preload" as="image" href="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-photo-right.jpg" />
+  <link rel="preload" as="image" href="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-duct.jpg" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/kanki_dakuto_lp.css">
 </head>
 <body>
