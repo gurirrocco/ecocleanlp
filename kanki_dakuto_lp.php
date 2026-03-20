@@ -63,7 +63,7 @@
       <div class="sec-title-wrap" style="text-align:center;">
         <div class="hl-wrap">
           <div class="hl"></div>
-          <p class="sec-title navy fw700 lh-n" style="font-size:clamp(20px,3vw,58px);">換気ダクト清掃で、<br class="sp-only-br">暮らしの悩みをスッキリ解決！</p>
+          <p class="sec-title navy fw700 lh-n" style="font-size:clamp(20px,3vw,58px);">換気ダクト清掃で、<br>暮らしの悩みをスッキリ解決！</p>
         </div>
       </div>
       <div class="benefits-white-card">

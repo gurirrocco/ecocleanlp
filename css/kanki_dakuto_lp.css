@@ -736,11 +736,12 @@ p { line-height: 1.6; }
 }
 .service-title-row {
   display: flex;
-  align-items: flex-end;
-  gap: clamp(4px, 0.156vw, 3px);
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(4px, 0.521vw, 10px);
   width: 100%;
   max-width: 1024px;
-  flex-wrap: wrap;
+  text-align: center;
 }
 .service-cards-grid {
   display: grid;
@@ -949,7 +950,6 @@ p { line-height: 1.6; }
   justify-content: center;
   padding: clamp(8px, 0.521vw, 10px) clamp(20px, 2.083vw, 40px);
   width: auto;
-  white-space: nowrap;
 }
 .movie-photos-row {
   display: flex;
@@ -1336,7 +1336,7 @@ p { line-height: 1.6; }
   .movie-photo { width: 100%; max-width: 400px; height: 200px; }
   .movie-person-photo { width: 100%; max-width: 400px; }
   .movie-title-badge { width: 90vw; }
-  .movie-title-badge p { font-size: 5vw !important; white-space: nowrap; }
+  .movie-title-badge p { font-size: 5vw !important; white-space: normal; }
 
   /* Reasons / Flow */
   .reasons-white-card,
@@ -1704,6 +1704,7 @@ p { line-height: 1.6; }
   line-height: 1.7;
   color: #111;
   flex: 1;
+  background: #f5f7ff;
 }
 .sp-plan-value strong {
   color: #b23e3a;
