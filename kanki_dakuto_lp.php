@@ -73,7 +73,7 @@
                 <p style="font-size:clamp(16px,1.667vw,32px)">少なくなった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-1.png" alt="" /></div>
+            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-1.png" alt="" /></div>
           </div>
           <div class="benefit-divider-v"></div>
           <div class="benefit-item">
@@ -84,7 +84,7 @@
                 <p style="font-size:clamp(16px,1.667vw,32px)">静かになった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-2.png" alt="" /></div>
+            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-2.png" alt="" /></div>
           </div>
         </div>
         <div class="benefit-divider-h"></div>
@@ -97,7 +97,7 @@
                 <p>解消された！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-3.png" alt="" /></div>
+            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-3.png" alt="" /></div>
           </div>
           <div class="benefit-divider-v"></div>
           <div class="benefit-item">
@@ -108,7 +108,7 @@
                 <p>少なくなった！</p>
               </div>
             </div>
-            <div class="benefit-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-4.png" alt="" /></div>
+            <div class="benefit-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/benefit-icon-4.png" alt="" /></div>
           </div>
         </div>
       </div>
@@ -156,13 +156,13 @@
             <p class="what-is-desc">換気ダクト清掃とは、建物内の空気を循環・排出するために設置されたダクト（風道）の内部に蓄積した汚れ、ほこり、油脂、カビなどを専門的な機器を使って除去・洗浄する作業のことです。</p>
           </div>
           <div class="what-is-img">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/what-is-duct.jpg" alt="" />
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/what-is-duct.jpg" alt="" />
           </div>
         </div>
 
         <!-- 下矢印 -->
         <div class="arrow-down-wrap">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down.svg" alt="" style="transform:scaleY(-1); width:270px;" />
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down.svg" alt="" style="transform:scaleY(-1); width:270px;" />
         </div>
 
         <!-- こんなお悩みありませんか -->
@@ -177,7 +177,7 @@
             <div class="customer-card-hd" style="background:#293d86;">
               <p class="white fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px); white-space:nowrap;">一般家庭のお客様</p>
             </div>
-            <div class="customer-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-home.png" alt="" /></div>
+            <div class="customer-icon"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-home.png" alt="" /></div>
             <ul class="customer-list">
               <li>・換気扇を回すと嫌な臭いがする</li>
               <li>・浴室のカビがすぐ増える</li>
@@ -190,7 +190,7 @@
             <div class="customer-card-hd" style="background:#fffa26;">
               <p class="navy fw700 lh-n" style="font-size:clamp(24px,2.5vw,48px); white-space:nowrap;">飲食店オーナー様</p>
             </div>
-            <div class="customer-icon" style="width:clamp(180px,21.094vw,405px);height:clamp(90px,10.547vw,202px);"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-restaurant.png" alt="" /></div>
+            <div class="customer-icon" style="width:clamp(180px,21.094vw,405px);height:clamp(90px,10.547vw,202px);"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/customer-restaurant.png" alt="" /></div>
             <ul class="customer-list">
               <li>・ダクトの油汚れが気になる</li>
               <li>・火災リスクが心配</li>
@@ -206,15 +206,15 @@
           <div class="dirt-label-tag">汚れのお写真</div>
           <div class="dirt-photos-row">
             <div class="dirt-photo-col">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-silicone-fan.jpg" alt="換気扇のシロッコファン" />
+              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-silicone-fan.jpg" alt="換気扇のシロッコファン" />
               <div class="dirt-caption-tag">換気扇のシロッコファン</div>
             </div>
             <div class="dirt-photo-col">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-range-hood.jpg" alt="レンジフード" />
+              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-range-hood.jpg" alt="レンジフード" />
               <div class="dirt-caption-tag">レンジフード</div>
             </div>
             <div class="dirt-photo-col">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-toilet-room.jpg" alt="トイレ・部屋などの換気ダクト" />
+              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-toilet-room.jpg" alt="トイレ・部屋などの換気ダクト" />
               <div class="dirt-caption-tag">トイレ・部屋などの換気ダクト</div>
             </div>
           </div>
@@ -272,8 +272,8 @@
         </div>
         <div class="risk-image-block" style="background:#f39c12;">
           <div class="risk-img-pair">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-health-1.jpg" alt="" />
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-health-2.jpg" alt="" />
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-health-1.jpg" alt="" />
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-health-2.jpg" alt="" />
           </div>
           <p class="risk-img-caption fw700 white">見えない空気の汚れが、<br>大切なご家族の健康を蝕んでいます。</p>
         </div>
@@ -300,8 +300,8 @@
         </div>
         <div class="risk-image-block" style="background:#27ae60;">
           <div class="risk-img-pair">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-cost-1.jpg" alt="" />
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-cost-2.jpg" alt="" />
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-cost-1.jpg" alt="" />
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-cost-2.jpg" alt="" />
           </div>
           <p class="risk-img-caption fw700 white">ダクト清掃は「コスト」ではなく「投資」。<br>設備や住環境を守るための大切なメンテナンスです。</p>
         </div>
@@ -326,8 +326,8 @@
         </div>
         <div class="risk-image-block" style="background:#b23e3a;">
           <div class="risk-img-pair">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-fire-1.jpg" alt="" />
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-fire-2.jpg" alt="" />
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-fire-1.jpg" alt="" />
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/risk-fire-2.jpg" alt="" />
           </div>
           <p class="risk-img-caption fw700 white">定期清掃は「保険」ではなく「義務」。<br>取り返しのつかない事態になる前に対策を。</p>
         </div>
@@ -351,22 +351,22 @@
         <div class="service-cards-grid">
           <div class="service-card">
             <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">高圧洗浄 ×<br class="sp-br">専用機器</p></div>
-            <div class="service-card-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-high-pressure.jpg" alt="" /></div>
+            <div class="service-card-img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-high-pressure.jpg" alt="" /></div>
             <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">頑固な油脂・<br>カビも徹底除去</p>
           </div>
           <div class="service-card">
             <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">全種類の<br class="sp-br">ダクトに対応</p></div>
-            <div class="service-card-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-all-types.jpg" alt="" /></div>
+            <div class="service-card-img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-all-types.jpg" alt="" /></div>
             <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">浴室・洗面所・トイレ<br>レンジフード・部屋対応</p>
           </div>
           <div class="service-card">
             <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">ご都合に<br class="sp-br">合わせて対応</p></div>
-            <div class="service-card-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-schedule.jpg" alt="" /></div>
+            <div class="service-card-img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-schedule.jpg" alt="" /></div>
             <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">土日・祝日作業OK<br>お客様のご都合に合わせます</p>
           </div>
           <div class="service-card">
             <div class="service-card-hd bg-navy"><p class="white fw700 lh-n" style="font-size:clamp(16px,1.875vw,36px);">ダクト交換・<br class="sp-br">高所作業対応</p></div>
-            <div class="service-card-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-replacement.jpg" alt="" /></div>
+            <div class="service-card-img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/service-replacement.jpg" alt="" /></div>
             <p class="navy fw700 lh-n text-center" style="font-size:clamp(16px,1.875vw,36px);">劣化したダクトの交換<br>高所作業にも対応可能です</p>
           </div>
         </div>
@@ -381,8 +381,8 @@
           </div>
         </div>
         <div class="region-maps-row">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-osaka.png" alt="大阪府" />
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-hyogo.png" alt="兵庫県" />
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-osaka.png" alt="大阪府" />
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/map-hyogo.png" alt="兵庫県" />
         </div>
       </div>
     </div>
@@ -399,7 +399,7 @@
       </div>
       <div class="tech-subtitle-wrap">
         <p class="navy fw700 lh-n text-center" style="font-size:clamp(20px,3.333vw,64px);">ダクト内部の汚れを徹底除去します！</p>
-        <div class="tech-underline"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/underline-deco.svg" alt="" /></div>
+        <div class="tech-underline"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/underline-deco.svg" alt="" /></div>
       </div>
       <p class="navy text-center" style="font-size:clamp(14px,1.25vw,24px); line-height:1.8;">
         見えないダクト内部の汚れは、空気環境や設備の効率に大きく影響します。<br>
@@ -417,12 +417,12 @@
           <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;1</span>
           <span class="pill-r navy">作業前の汚れているダクト</span>
         </div>
-        <img class="step-photo step-border" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step1-before.jpg" alt="清掃前" />
+        <img loading="lazy" class="step-photo step-border" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step1-before.jpg" alt="清掃前" />
       </div>
 
       <!-- 矢印 1→2 (右上方向) -->
       <div class="abs-arrow arrow12-m" style="left:50.65%;top:12.57%;width:24.61%;">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.png" alt="" style="transform:rotate(-5.39deg);width:100%;display:block;" />
+        <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.png" alt="" style="transform:rotate(-5.39deg);width:100%;display:block;" />
       </div>
 
       <!-- ラベル1「作業前に養生で」 -->
@@ -437,7 +437,7 @@
           <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;2</span>
           <span class="pill-r navy">養生を行います</span>
         </div>
-        <img class="step-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step2-cleaning.jpg" alt="養生" />
+        <img loading="lazy" class="step-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step2-cleaning.jpg" alt="養生" />
       </div>
 
       <!-- ラベル2「専用機材でダクト内部を」 -->
@@ -448,7 +448,7 @@
 
       <!-- 矢印 2→3 (左下方向) -->
       <div class="abs-arrow arrow23-m" style="left:23.34%;top:36.26%;width:33.66%;">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.png" alt="" style="transform:scaleX(-1);width:100%;display:block;" />
+        <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-step.png" alt="" style="transform:scaleX(-1);width:100%;display:block;" />
       </div>
 
       <!-- STEP 3 -->
@@ -457,7 +457,7 @@
           <span class="pill-l bg-navy white">STEP&nbsp;&nbsp;3</span>
           <span class="pill-r navy">清掃後の綺麗なダクト</span>
         </div>
-        <img class="step-photo step-border" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step3-after.jpg" alt="清掃後" />
+        <img loading="lazy" class="step-photo step-border" src="<?php echo get_stylesheet_directory_uri(); ?>/images/step3-after.jpg" alt="清掃後" />
       </div>
 
       <!-- ラベル3「ダクト交換も行っております」 -->
@@ -476,9 +476,9 @@
       </div>
       <div class="movie-photos-row">
         <div class="movie-left-col">
-          <div class="movie-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/movie-thumbnail.jpg" alt="清掃ムービー" /></div>
+          <div class="movie-photo"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/movie-thumbnail.jpg" alt="清掃ムービー" /></div>
         </div>
-        <div class="movie-person-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/staff-person.jpg" alt="" /></div>
+        <div class="movie-person-photo"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/staff-person.jpg" alt="" /></div>
       </div>
       <div class="movie-btn-wrap">
         <button class="btn-diagnosis">▶今すぐ無料でご相談</button>
@@ -541,7 +541,7 @@
               </div>
               <p class="navy review-body">今回は年の瀬の忙しい時期にも関わらず丁寧な作業ありがとうございました!詳しく説明いただき、アフターケアも丁寧に説明していただきました。おかげでスッキリして年越しを迎えられます!またお願いいたします!<br>丁寧・親切な対応に感謝しています!</p>
             </div>
-            <div class="review-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-1.jpg" alt="" /></div>
+            <div class="review-photo"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-1.jpg" alt="" /></div>
           </div>
           <div class="row-divider"></div>
           <div class="review-row">
@@ -553,7 +553,7 @@
               </div>
               <p class="navy review-body">作業内容の説明がとても丁寧でした。隣の店舗に水漏れさせてしまいすごく不安な中、作業中にもずっと話を聞いていただき、気持ちがすこし落ち着きました。ありがとうございました。<br>安心してお願いできる業者さんです!</p>
             </div>
-            <div class="review-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-2.jpg" alt="" /></div>
+            <div class="review-photo"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-2.jpg" alt="" /></div>
           </div>
           <div class="row-divider"></div>
           <div class="review-row">
@@ -565,7 +565,7 @@
               </div>
               <p class="navy review-body">とても親切にしてくださいました(´人｀)本当にありがとうございました! また、次回もお願いしたいです(^^♪ 安心してお願いできる業者さんです! また、よろしくお願いします。</p>
             </div>
-            <div class="review-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-3.jpg" alt="" /></div>
+            <div class="review-photo"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/review-photo-3.jpg" alt="" /></div>
           </div>
         </div>
       </div>
@@ -646,7 +646,7 @@
         </div>
         <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:39px; text-align:center;">基本的なサービスと料金をご案内いたします。</p>
         <div class="pricing-img-wrap">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pricing-table.png" alt="料金表" />
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pricing-table.png" alt="料金表" />
         </div>
         <!-- SP用：プランカード縦表示 -->
         <div class="sp-pricing-cards">
