@@ -534,7 +534,7 @@
         <div class="reviews-white-card">
           <div class="review-row">
             <div class="review-text-col">
-              <div class="review-hd bg-navy"><p class="white fw500 lh-n" style="font-size:clamp(14px,1.25vw,24px);">年の瀬、お世話になりました!</p></div>
+              <div class="review-hd bg-navy"><p class="white fw500 lh-n" style="font-size:clamp(14px,1.25vw,24px);">年の瀬にお世話になりました!</p></div>
               <div class="review-meta">
                 <span class="navy fw700" style="font-size:clamp(14px,1.25vw,24px);">nikiさん</span>
                 <span style="font-size:clamp(14px,1.25vw,24px); color:#f39c12;">★★★★★　5.0</span>
