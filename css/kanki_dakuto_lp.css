@@ -2,7 +2,7 @@
    RESET & BASE
 =================================== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { font-size: 16px; overflow-x: hidden; }
+html { font-size: 16px; }
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
