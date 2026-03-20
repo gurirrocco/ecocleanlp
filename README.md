@@ -12,7 +12,9 @@ ecocleanlp/
 ├── functions.php              # 親テーマ（SWELL）読み込み
 ├── kanki_dakuto_lp.php        # LPページテンプレート
 ├── css/
-│   └── kanki_dakuto_lp.css    # LPスタイルシート
+│   └── kanki_dakuto_lp.css    # LPスタイルシート + アニメーション
+├── js/
+│   └── kanki_dakuto_lp.js     # アニメーションスクリプト
 └── images/                    # 画像ファイル（39枚）
 ```
 
@@ -61,6 +63,45 @@ https://swell-theme.com/
 |---|---|
 | メインコンテンツ（各セクション） | 1000px（デスクトップはzoom 0.9で実質900px） |
 | お悩みエリア | 1100px（実質990px） |
+
+---
+
+## アニメーション
+
+`css/kanki_dakuto_lp.css` と `js/kanki_dakuto_lp.js` で実装。
+
+| アニメーション | 対象 | 実装方法 |
+|---|---|---|
+| ヒーロースライドイン | 「毎日吸ってる空気」タグ・「本当にキレイ？」・バナー | CSS `@keyframes`（ページ読み込み時） |
+| スクロールフェードイン | 各カード・セクション全体 | `IntersectionObserver` + `.fade-in` / `.visible` クラス |
+| 数字カウントアップ | リスクセクションの「最大30%」「約7割」 | `IntersectionObserver` + `setInterval` |
+| ボタンホバー | 「無料でご相談」「今すぐ無料診断する」 | CSS `transition` + `transform` |
+| リップル（波紋） | 全ボタン（クリック時） | JS で `<span>` を動的生成 |
+
+### アニメーションのカスタマイズ
+
+**フェードインの速度を変更する（CSS）**
+```css
+.fade-in {
+  transition: opacity 0.7s ease, transform 0.7s ease; /* 0.7s を変更 */
+}
+```
+
+**ボタンの浮き上がり量を変更する（CSS）**
+```css
+.btn-consult:hover,
+.btn-diagnosis:hover {
+  transform: translateY(-4px); /* -4px を変更 */
+}
+```
+
+**フェードインの対象要素を追加する（JS）**
+```js
+const fadeTargets = [
+  '.benefits-white-card',
+  // ここに追加したいCSSセレクタを記述
+];
+```
 
 ---
 
