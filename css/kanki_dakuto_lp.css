@@ -40,19 +40,19 @@ p { line-height: 1.6; }
   width: 100%;
   max-width: 1450px;
   margin: 0 auto;
-  padding: 80px clamp(20px, 4vw, 80px);
+  padding: 40px clamp(20px, 4vw, 80px);
 }
 .inner-1356 {
   width: 100%;
   max-width: 1356px;
   margin: 0 auto;
-  padding: 80px clamp(20px, 4vw, 80px);
+  padding: 40px clamp(20px, 4vw, 80px);
 }
 .inner-1349 {
   width: 100%;
   max-width: 1349px;
   margin: 0 auto;
-  padding: 80px clamp(20px, 4vw, 80px);
+  padding: 40px clamp(20px, 4vw, 80px);
 }
 
 /* ===================================
@@ -146,8 +146,8 @@ p { line-height: 1.6; }
   font-size: 0;
   line-height: 0;
 }
-.hero-air-big { font-size: clamp(30px, 5vw, 96px); line-height: 1.1; }
-.hero-air-mid { font-size: clamp(20px, 3.333vw, 64px); line-height: 1.1; }
+.hero-air-big { font-size: clamp(34px, 5.4vw, 104px); line-height: 1.1; }
+.hero-air-mid { font-size: clamp(22px, 3.6vw, 69px); line-height: 1.1; }
 /* 本当にキレイですか？ */
 .hero-question {
   position: absolute;
@@ -160,9 +160,9 @@ p { line-height: 1.6; }
   text-shadow: 0 4px 10px black;
   line-height: 1;
 }
-.hq-big { font-size: clamp(30px, 5vw, 96px); }
-.hq-mid { font-size: clamp(20px, 3.333vw, 64px); }
-.hq-xl  { font-size: clamp(40px, 6.667vw, 128px); }
+.hq-big { font-size: clamp(34px, 5.4vw, 104px); }
+.hq-mid { font-size: clamp(22px, 3.6vw, 69px); }
+.hq-xl  { font-size: clamp(42px, 6.8vw, 130px); }
 /* 中央の小さい写真（技術者ポートレート） */
 .hero-machine-photo {
   position: absolute;
@@ -211,19 +211,68 @@ p { line-height: 1.6; }
 }
 
 /* ===================================
+   HERO DUCT LABELS (吹き出し)
+=================================== */
+.hero-label {
+  display: none; /* SP以外では非表示 */
+  position: absolute;
+  background: #293d86;
+  color: #fff;
+  font-weight: 700;
+  font-size: clamp(12px, 1.042vw, 20px);
+  padding: clamp(5px, 0.417vw, 8px) clamp(10px, 0.833vw, 16px);
+  border-radius: 8px;
+  z-index: 10;
+  white-space: nowrap;
+  line-height: 1.4;
+  text-align: center;
+  pointer-events: none;
+}
+.hero-label::after {
+  content: '';
+  position: absolute;
+  border: 9px solid transparent;
+}
+/* 清掃前: 左上、尾は下向き */
+.hero-label-before {
+  top: clamp(15px, 3vw, 50px);
+  left: clamp(15px, 3vw, 60px);
+}
+.hero-label-before::after {
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top-color: #293d86;
+}
+/* 清掃後: 右下エリア、尾は上向き */
+.hero-label-after {
+  bottom: clamp(40px, 8vw, 140px);
+  right: clamp(15px, 3vw, 60px);
+}
+.hero-label-after::after {
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-color: #293d86;
+}
+
+/* ===================================
    SECTION 2: BENEFITS
 =================================== */
 .sec-benefits {
   background: #e8edf7;
-  padding: clamp(40px, 4.167vw, 80px) 0;
+  padding: clamp(16px, 1.563vw, 30px) 0;
 }
 .sec-title-wrap {
-  margin-bottom: clamp(20px, 2.083vw, 40px);
+  margin-bottom: clamp(12px, 1.25vw, 24px);
+}
+@media (min-width: 769px) {
+  .sec-title { white-space: nowrap; }
 }
 .benefits-white-card {
   background: #fff;
   border-radius: 10px;
-  padding: clamp(24px, 2.604vw, 50px);
+  padding: clamp(16px, 1.563vw, 30px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -294,7 +343,7 @@ p { line-height: 1.6; }
    CTA (共通)
 =================================== */
 .sec-cta {
-  padding: clamp(30px, 2.917vw, 56px) clamp(20px, 11.51vw, 221px) clamp(40px, 4.375vw, 84px);
+  padding: clamp(24px, 2.083vw, 40px) clamp(20px, 11.51vw, 221px) clamp(30px, 3.125vw, 60px);
 }
 .cta-wrap {
   display: flex;
@@ -346,6 +395,8 @@ p { line-height: 1.6; }
 }
 .sp-br { display: none; }
 @media (max-width: 480px) { .sp-br { display: block; } }
+.sp-only-br { display: none; }
+@media (max-width: 768px) { .sp-only-br { display: block; } }
 
 .btn-tel-divider {
   width: 1px;
@@ -376,7 +427,7 @@ p { line-height: 1.6; }
 =================================== */
 .sec-worries {
   background: #f5f5f5;
-  padding: clamp(40px, 5.208vw, 100px) 0;
+  padding: clamp(30px, 3.646vw, 70px) 0;
 }
 .worries-white-card {
   background: #fff;
@@ -519,7 +570,7 @@ p { line-height: 1.6; }
 =================================== */
 .sec-cta2 {
   background: #fff;
-  padding: clamp(30px, 2.917vw, 56px) clamp(20px, 4vw, 80px) clamp(40px, 4.375vw, 84px);
+  padding: clamp(24px, 2.083vw, 40px) clamp(20px, 4vw, 80px) clamp(30px, 3.125vw, 60px);
   display: flex;
   justify-content: center;
 }
@@ -555,7 +606,7 @@ p { line-height: 1.6; }
 =================================== */
 .sec-risks {
   background: #e2ebfa;
-  padding: clamp(40px, 4.167vw, 80px) 0;
+  padding: clamp(30px, 3.125vw, 60px) 0;
 }
 .risk-block {
   background: #fff;
@@ -673,7 +724,7 @@ p { line-height: 1.6; }
 =================================== */
 .sec-services {
   background: #eff3f5;
-  padding: clamp(40px, 4.167vw, 80px) 0;
+  padding: clamp(30px, 3.125vw, 60px) 0;
 }
 .services-white-card {
   background: #fff;
@@ -757,7 +808,7 @@ p { line-height: 1.6; }
    SECTION 8: 確かな技術
 =================================== */
 .sec-tech {
-  padding: clamp(40px, 5.208vw, 100px) 0;
+  padding: clamp(30px, 3.646vw, 70px) 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -896,26 +947,28 @@ p { line-height: 1.6; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: clamp(8px, 0.521vw, 10px) clamp(16px, 1.563vw, 30px);
-  width: clamp(300px, 44.844vw, 861px);
+  padding: clamp(8px, 0.521vw, 10px) clamp(20px, 2.083vw, 40px);
+  width: auto;
+  white-space: nowrap;
 }
 .movie-photos-row {
   display: flex;
   gap: clamp(16px, 2.083vw, 40px);
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: center;
 }
 .movie-left-col {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  width: clamp(200px, 33.698vw, 647px);
+  align-items: center;
+  flex-shrink: 0;
 }
 .movie-photo {
-  width: clamp(200px, 33.698vw, 647px);
-  height: clamp(120px, 20.99vw, 403px);
+  width: clamp(240px, 40vw, 768px);
+  height: clamp(135px, 22.5vw, 432px);
   border-radius: 25px;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .movie-photo img {
   width: 110%;
@@ -924,13 +977,15 @@ p { line-height: 1.6; }
   margin-left: -5%;
 }
 .movie-person-photo {
-  width: clamp(200px, 29.167vw, 560px);
+  width: clamp(150px, 25vw, 480px);
   overflow: hidden;
+  flex-shrink: 0;
 }
 .movie-btn-wrap {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: clamp(16px, 1.563vw, 30px);
 }
 .movie-person-photo img {
   width: 100%;
@@ -944,7 +999,7 @@ p { line-height: 1.6; }
 =================================== */
 .sec-reasons {
   background: #e8edf7;
-  padding: clamp(40px, 4.167vw, 80px) 0;
+  padding: clamp(30px, 3.125vw, 60px) 0;
 }
 .reasons-white-card {
   background: #fff;
@@ -1042,7 +1097,7 @@ p { line-height: 1.6; }
 =================================== */
 .sec-pricing {
   background: #eff3f5;
-  padding: clamp(40px, 4.167vw, 80px) 0;
+  padding: clamp(30px, 3.125vw, 60px) 0;
 }
 .flow-section {
   margin-bottom: clamp(40px, 4.167vw, 80px);
@@ -1197,8 +1252,13 @@ p { line-height: 1.6; }
     gap: 16px;
   }
   .benefit-divider-v {
-    width: 200px;
+    width: 60%;
     height: 1px;
+    margin: 0 auto;
+  }
+  .benefit-divider-h {
+    width: 60%;
+    margin: 0 auto;
   }
 
   /* CTA Buttons */
@@ -1290,11 +1350,11 @@ p { line-height: 1.6; }
 
   /* Review */
   .review-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
   }
-  .review-photo { width: 100px; align-self: flex-end; }
+  .review-photo { width: 120px; flex-shrink: 0; }
 
   /* CTA2 */
   .cta2-navy-box {
@@ -1314,6 +1374,27 @@ p { line-height: 1.6; }
     height: 220px;
   }
   .what-is-desc { max-width: 100%; }
+
+  /* サブキャッチ中央揃え */
+  .sec-risks .inner-1356 > div[style*="text-align:center"],
+  .sec-reasons .inner-1450 > div[style*="text-align:center"],
+  .sec-pricing .inner-1450 .flow-section > div[style*="text-align:center"],
+  .pricing-section > div[style*="text-align:center"] {
+    text-align: center;
+  }
+
+  /* 料金表: SP では縦積み */
+  .sp-pricing-cards {
+    display: flex !important;
+    flex-direction: column;
+    gap: 32px !important;
+  }
+  .sp-plan-card {
+    display: flex !important;
+    flex-direction: column;
+    grid-row: unset;
+    grid-template-rows: none;
+  }
 }
 
 /* スマートフォン (480px以下) */
@@ -1376,32 +1457,35 @@ p { line-height: 1.6; }
     flex-shrink: 0;
   }
 
-  /* 毎日吸っている空気タグ */
-  /* Figma: left:55, top:100(frame) → hero top: (100-56)/480 = 9.2vw */
+  /* 毎日吸っている空気タグ: 写真境界（下端）に配置 */
   .hero-air-tag {
-    top: 9.2vw;
-    left: 11.5vw;     /* 55/480 */
-    width: 77.5vw;    /* 372/480 */
-    height: 13.1vw;   /* 63/480 */
+    top: auto;
+    bottom: 75vw;   /* 下写真の上端 = 上写真の下端 */
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    transform: none;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    padding: 2vw;
+    padding: 2.5vw 3vw;
+    white-space: nowrap;
+    box-sizing: border-box;
   }
-  .hero-air-big { font-size: 10vw; }   /* 48/480 */
-  .hero-air-mid { font-size: 6.67vw; } /* 32/480 */
+  .hero-air-big { font-size: 11vw; }
+  .hero-air-mid { font-size: 7.5vw; }
 
-  /* 黄色三角: 写真境界に中央配置・下向き回転 */
-  /* Figma: center y=(274.7+282.607/2-56)/480 ≈ 75vw（境界点） */
+  /* ▽ 三角矢印: バナーにくっつく（頂点が75vwに来るようtopを調整） */
   .hero-machine-photo {
     display: block;
-    top: 75vw;
+    top: 66vw;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
-    width: 58.5vw;    /* 281/480 */
-    height: 48.75vw;  /* 234/480 */
+    transform: translate(-50%, 0) rotate(90deg);
+    width: 32vw;
+    height: 26.7vw;
     box-shadow: none;
-    overflow: hidden;
+    overflow: visible;
   }
 
   /* ダクト内部写真オーバーレイ */
@@ -1414,26 +1498,26 @@ p { line-height: 1.6; }
     height: 43.96vw;  /* 211/480 */
   }
 
-  /* 本当にキレイですか？ */
-  /* Figma: top:707(center, -translateY50%) → hero: (707-56)/480=135.6vw */
-  /* z-index: hero-duct-photoより前面に */
+  /* 本当にキレイですか？ - ▽のすぐ下 */
   .hero-question {
-    top: 135.6vw;
-    left: 6.9vw;      /* 33/480 */
-    transform: translateY(-50%);
+    top: 85vw;
+    left: 0;
+    right: 0;
+    transform: none;
     font-size: 0;
     white-space: nowrap;
     color: #fff;
-    text-shadow: 0 4px 10px black;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.9);
     line-height: 1;
+    text-align: center;
     z-index: 2;
   }
   .hero-duct-photo {
     z-index: 1;
   }
-  .hq-big { font-size: 10vw; }   /* 48/480 */
-  .hq-mid { font-size: 6.67vw; } /* 32/480 */
-  .hq-xl  { font-size: 10vw; }   /* 48/480 */
+  .hq-big { font-size: 11vw; }
+  .hq-mid { font-size: 7.5vw; }
+  .hq-xl  { font-size: 11vw; }
 
   /* 下部バナー（Figma: top:777 → hero bottom） */
   .hero-bottom-banner {
@@ -1447,8 +1531,139 @@ p { line-height: 1.6; }
   .sec-benefits {
     padding-top: 25vw !important;
   }
+
+  /* 吹き出しラベル SP */
+  .hero-label {
+    display: block;
+    font-size: 4.5vw;
+    padding: 2vw 4vw;
+    border-radius: 8px;
+    font-weight: 700;
+  }
+  /* 清掃前ダクト: 上写真の右上 / 尾は左下向き */
+  .hero-label-before {
+    top: 10vw;
+    left: auto;
+    right: 4vw;
+  }
+  .hero-label-before::after {
+    bottom: -20px;
+    left: 20%;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+    border-top-color: #293d86;
+  }
+  /* 清掃後ダクト: 下写真の左下 / 黄色 / 尾は右上向き */
+  .hero-label-after {
+    top: 128vw;
+    left: 4vw;
+    right: auto;
+    bottom: auto;
+    background: #fffa26;
+    color: #293d86;
+  }
+  .hero-label-after::after {
+    top: -20px;
+    right: 20%;
+    left: auto;
+    transform: translateX(50%);
+    border: 10px solid transparent;
+    border-bottom-color: #fffa26;
+  }
 }
 
+
+/* ===================================
+   PRICING CARDS (全画面共通)
+=================================== */
+.pricing-img-wrap { display: none; }
+.sp-pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  column-gap: clamp(10px, 1.25vw, 20px);
+  row-gap: 0;
+  width: 100%;
+  margin-bottom: clamp(20px, 2.031vw, 39px);
+}
+.sp-plan-card {
+  border: 2px solid #293d86;
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  grid-row: span 4;
+  grid-template-rows: subgrid;
+}
+.sp-plan-header {
+  background: #293d86;
+  padding: 14px 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sp-plan-name {
+  color: #fff;
+  font-weight: 700;
+  font-size: clamp(14px, 1.25vw, 20px);
+  margin-bottom: 4px;
+}
+.sp-plan-recommended {
+  display: inline-block;
+  background: #fffa26;
+  color: #293d86;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 2px 12px;
+  border-radius: 20px;
+  margin-bottom: 6px;
+}
+.sp-plan-price {
+  color: #fffa26;
+  font-weight: 700;
+  font-size: clamp(24px, 2.083vw, 36px);
+  line-height: 1.1;
+}
+.sp-plan-price span {
+  font-size: clamp(12px, 0.833vw, 14px);
+  font-weight: 400;
+}
+.sp-plan-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+.sp-plan-row:last-child {
+  border-bottom: none;
+}
+.sp-plan-label {
+  background: #e8edf7;
+  color: #293d86;
+  font-weight: 700;
+  font-size: clamp(11px, 0.729vw, 13px);
+  padding: 10px 8px;
+  width: clamp(60px, 5.208vw, 80px);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sp-plan-value {
+  padding: clamp(8px, 0.521vw, 10px) clamp(8px, 0.625vw, 12px);
+  font-size: clamp(11px, 0.729vw, 13px);
+  line-height: 1.7;
+  color: #111;
+  flex: 1;
+}
+.sp-plan-value strong {
+  color: #b23e3a;
+}
+/* おすすめカード強調 */
+.sp-plan-card:nth-child(2) {
+  border-width: 3px;
+  box-shadow: 0 4px 16px rgba(41, 61, 134, 0.2);
+}
 
 /* ===================================
    ANIMATIONS

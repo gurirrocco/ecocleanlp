@@ -43,9 +43,12 @@
       <div class="hero-duct-photo">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-duct.jpg" alt="" />
       </div>
+      <!-- 清掃前/清掃後 吹き出しラベル -->
+      <div class="hero-label hero-label-before">清掃前ダクト</div>
+      <div class="hero-label hero-label-after">清掃後ダクト</div>
       <!-- 下部バナー -->
       <div class="hero-bottom-banner">
-        見えないダクト内部の汚れをプロが徹底清掃
+        見えないダクト内部の汚れを<br class="sp-only-br">プロが徹底清掃
       </div>
     </div>
   </section>
@@ -57,7 +60,7 @@
       <div class="sec-title-wrap" style="text-align:center;">
         <div class="hl-wrap">
           <div class="hl"></div>
-          <p class="sec-title navy fw700 lh-n" style="font-size:clamp(28px,3vw,58px); white-space:nowrap;">換気ダクト清掃で、暮らしの悩みをスッキリ解決！</p>
+          <p class="sec-title navy fw700 lh-n" style="font-size:clamp(20px,3vw,58px);">換気ダクト清掃で、<br class="sp-only-br">暮らしの悩みをスッキリ解決！</p>
         </div>
       </div>
       <div class="benefits-white-card">
@@ -468,17 +471,17 @@
     <!-- 換気ダクト清掃ムービー -->
     <div class="movie-section">
       <div class="movie-title-badge bg-yellow">
-        <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px); text-align:center;">『全部見せます！換気ダクト清掃』</p>
+        <p class="navy fw700 lh-n" style="font-size:clamp(20px,2.5vw,48px); text-align:center; white-space:nowrap;">『全部見せます！換気ダクト清掃』</p>
         <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.5vw,28px); text-align:center;">お部屋を汚さず丁寧に作業いたします。</p>
       </div>
       <div class="movie-photos-row">
         <div class="movie-left-col">
           <div class="movie-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/movie-thumbnail.jpg" alt="清掃ムービー" /></div>
-          <div class="movie-btn-wrap" style="margin-top:clamp(16px,1.563vw,30px);">
-            <button class="btn-diagnosis">▶今すぐ無料でご相談</button>
-          </div>
         </div>
         <div class="movie-person-photo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/staff-person.jpg" alt="" /></div>
+      </div>
+      <div class="movie-btn-wrap">
+        <button class="btn-diagnosis">▶今すぐ無料でご相談</button>
       </div>
     </div>
   </section>
@@ -527,7 +530,7 @@
             <p class="navy fw700 lh-n" style="font-size:clamp(24px,3.333vw,64px);">たくさんのお客様から<br>喜びの声が届いています。</p>
           </div>
         </div>
-        <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:30px;">清掃サービスに1000件以上の口コミ、平均評価は4.8。多くのお客様からご満足いただいています!</p>
+        <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:30px; text-align:center;">清掃サービスに1000件以上の口コミ、平均評価は4.8。多くのお客様からご満足いただいています!</p>
         <div class="reviews-white-card">
           <div class="review-row">
             <div class="review-text-col">
@@ -635,15 +638,76 @@
       <!-- 料金 -->
       <div class="pricing-section">
         <div style="margin-bottom:16px; text-align:center;">
-          <p class="navy fw700 lh-n" style="font-size:clamp(22px,2.5vw,48px);">高品質な清掃サービスを</p>
+          <p class="navy fw700 lh-n" style="font-size:clamp(22px,2.5vw,48px); display:inline;">高品質な清掃サービスを</p>
           <div class="hl-wrap">
             <div class="hl"></div>
             <p class="navy fw700 lh-n" style="font-size:clamp(22px,2.5vw,48px);">格安でご提供。</p>
           </div>
         </div>
-        <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:39px;">基本的なサービスと料金をご案内いたします。</p>
+        <p class="navy fw700 lh-n" style="font-size:clamp(14px,1.25vw,24px); margin-bottom:39px; text-align:center;">基本的なサービスと料金をご案内いたします。</p>
         <div class="pricing-img-wrap">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pricing-table.png" alt="料金表" />
+        </div>
+        <!-- SP用：プランカード縦表示 -->
+        <div class="sp-pricing-cards">
+          <!-- 1箇所プラン -->
+          <div class="sp-plan-card">
+            <div class="sp-plan-header">
+              <p class="sp-plan-name">1箇所プラン</p>
+              <p class="sp-plan-price">¥15,000<span> 税込</span></p>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">対象</div>
+              <div class="sp-plan-value">マンション・戸建て</div>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">清掃範囲</div>
+              <div class="sp-plan-value">換気ダクト1箇所<br>浴室／洗面所／トイレ<br>レンジフード／部屋 より選択</div>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">追加オプション</div>
+              <div class="sp-plan-value">グリスフィルター <strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
+            </div>
+          </div>
+          <!-- 3箇所プラン -->
+          <div class="sp-plan-card">
+            <div class="sp-plan-header">
+              <div class="sp-plan-recommended">おすすめ</div>
+              <p class="sp-plan-name">3箇所プラン</p>
+              <p class="sp-plan-price">¥35,000<span> 税込</span></p>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">対象</div>
+              <div class="sp-plan-value">マンション・戸建て</div>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">清掃範囲</div>
+              <div class="sp-plan-value">換気ダクト3箇所<br>浴室／洗面所／トイレ<br>レンジフード／部屋 より選択</div>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">追加オプション</div>
+              <div class="sp-plan-value">グリスフィルター <strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
+            </div>
+          </div>
+          <!-- 5箇所まるごとプラン -->
+          <div class="sp-plan-card">
+            <div class="sp-plan-header">
+              <p class="sp-plan-name">5箇所まるごとプラン</p>
+              <p class="sp-plan-price">¥50,000<span> 税込</span></p>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">対象</div>
+              <div class="sp-plan-value">マンション・戸建て（全箇所）</div>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">清掃範囲</div>
+              <div class="sp-plan-value">換気ダクト5箇所全て<br>浴室・洗面所・トイレ<br>レンジフード・部屋</div>
+            </div>
+            <div class="sp-plan-row">
+              <div class="sp-plan-label">追加オプション</div>
+              <div class="sp-plan-value">グリスフィルター <strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
+            </div>
+          </div>
         </div>
         <div class="pricing-note bg-white">
           <p class="navy" style="font-size:clamp(12px,1.25vw,24px); line-height:1.7;">※上記はマンション・戸建ての換気ダクト（浴室、洗面所、トイレ、レンジフード、部屋）の料金（税込）です。飲食店のフードダクトは別途お見積もりが必要です。グリスフィルターは別途¥5,000追加となります。電気・水道・ガスをお借りします。事前にうかがった状態と著しく異なる場合、追加料金が発生したり作業ができない場合がございます。追加料金が発生する場合は作業実施前にお伝えいたします。</p>
