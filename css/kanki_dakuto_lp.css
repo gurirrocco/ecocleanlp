@@ -1781,3 +1781,19 @@ p { line-height: 1.6; }
 @keyframes ripple-anim {
   to { transform: scale(3); opacity: 0; }
 }
+
+/* ===================================
+   SWELL 親テーマ干渉対策
+   （親テーマが a・button タグや flex を上書きするケースに備えた保険）
+=================================== */
+.cta-buttons {
+  flex-direction: row !important;
+  display: flex !important;
+}
+.btn-consult,
+.btn-tel,
+.btn-diagnosis {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  box-sizing: border-box !important;
+}

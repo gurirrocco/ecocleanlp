@@ -11,8 +11,8 @@
   <link rel="preload" as="image" href="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-photo-left.webp" />
   <link rel="preload" as="image" href="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-photo-right.webp" />
   <link rel="preload" as="image" href="<?php echo get_stylesheet_directory_uri(); ?>/images/hero-duct.webp" />
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/kanki_dakuto_lp.css">
   <link rel="icon" href="https://eco-clean-osaka.com/wp-content/uploads/2023/12/favicon.png" />
+  <?php wp_head(); ?>
 </head>
 <body>
 
@@ -745,6 +745,6 @@
   </section>
 
   </div><!-- /.main-content -->
-  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/kanki_dakuto_lp.js" defer></script>
+  <?php wp_footer(); ?>
 </body>
 </html>
