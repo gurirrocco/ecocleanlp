@@ -359,6 +359,10 @@ p { line-height: 1.6; }
   justify-content: center;
 }
 .btn-consult {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: #b23e3a;
   color: #fff;
   font-family: inherit;
@@ -374,6 +378,7 @@ p { line-height: 1.6; }
   white-space: nowrap;
 }
 .btn-tel {
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -586,6 +591,10 @@ p { line-height: 1.6; }
   max-width: 840px;
 }
 .btn-diagnosis {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: #b23e3a;
   color: #fff;
   font-family: inherit;

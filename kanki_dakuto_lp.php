@@ -18,7 +18,7 @@
   <!-- ===== HEADER ===== -->
   <header class="header">
     <div class="header-logo-row">
-      <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.webp" alt="エコクリーン" />
+      <a href="https://eco-clean-osaka.com/"><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.webp" alt="エコクリーン" /></a>
     </div>
     <div class="header-blue-bar"></div>
   </header>
@@ -129,15 +129,15 @@
         </div>
       </div>
       <div class="cta-buttons">
-        <button class="btn-consult"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:6px;"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>無料でご相談</button>
-        <div class="btn-tel">
+        <a href="https://eco-clean-osaka.com/contact/" class="btn-consult"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:6px;"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>無料でご相談</a>
+        <a href="tel:0661526364" class="btn-tel">
           <span class="btn-tel-label"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:4px;"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>電話で問い合わせ</span>
           <div class="btn-tel-divider"></div>
           <div class="btn-tel-num-wrap">
-            <p class="btn-tel-num">060-6152-6364</p>
+            <p class="btn-tel-num">06-6152-6364</p>
             <p class="btn-tel-sub">緊急時にもご対応させて頂きます</p>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -240,7 +240,7 @@
   <section class="sec-cta2">
     <div class="cta2-navy-box">
       <p class="yellow fw700 lh-n" style="font-size:clamp(18px,2.083vw,40px); white-space:nowrap;">１つでも当てはまったら︎</p>
-      <button class="btn-diagnosis">▶︎今すぐ無料診断する</button>
+      <a href="https://eco-clean-osaka.com/contact/" class="btn-diagnosis">▶︎今すぐ無料診断する</a>
     </div>
   </section>
 
@@ -479,12 +479,12 @@
       </div>
       <div class="movie-photos-row">
         <div class="movie-left-col">
-          <div class="movie-photo"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/movie-thumbnail.webp" alt="清掃ムービー" /></div>
+          <div class="movie-photo"><iframe width="560" height="315" src="https://www.youtube.com/embed/YrgQ-NV_tYk?si=0C8i6ZYubNxO2qMx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width:100%;height:100%;"></iframe></div>
         </div>
         <div class="movie-person-photo"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/staff-person.webp" alt="" /></div>
       </div>
       <div class="movie-btn-wrap">
-        <button class="btn-diagnosis">▶今すぐ無料でご相談</button>
+        <a href="https://eco-clean-osaka.com/contact/" class="btn-diagnosis">▶今すぐ無料でご相談</a>
       </div>
     </div>
   </section>
@@ -730,15 +730,15 @@
         </div>
       </div>
       <div class="cta-buttons">
-        <button class="btn-consult"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:6px;"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>無料でご相談</button>
-        <div class="btn-tel">
+        <a href="https://eco-clean-osaka.com/contact/" class="btn-consult"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:6px;"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>無料でご相談</a>
+        <a href="tel:0661526364" class="btn-tel">
           <span class="btn-tel-label"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:1em;height:1em;vertical-align:middle;margin-right:4px;"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>電話で問い合わせ</span>
           <div class="btn-tel-divider"></div>
           <div class="btn-tel-num-wrap">
-            <p class="btn-tel-num">060-6152-6364</p>
+            <p class="btn-tel-num">06-6152-6364</p>
             <p class="btn-tel-sub">緊急時にもご対応させて頂きます</p>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
