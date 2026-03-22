@@ -1418,7 +1418,7 @@ p { line-height: 1.6; }
     flex-direction: column;
     gap: 16px;
   }
-  .benefit-item { width: 100%; overflow: hidden; justify-content: space-between; }
+  .benefit-item { width: 100%; overflow: hidden; justify-content: center; }
   .benefit-text { white-space: normal; }
   .benefit-icon { width: 35vw; height: 28vw; max-width: 140px; max-height: 110px; flex-shrink: 0; }
   .benefit-divider-v {
