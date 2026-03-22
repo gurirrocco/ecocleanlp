@@ -60,6 +60,36 @@ WordPress管理画面 → 外観 → テーマ → `ecocleanlp` を有効化
 
 ---
 
+## functions.php 実装内容（2026年3月22日）
+
+### 目的
+SWELL子テーマ導入時、親テーマのCSS・JSがLP全体に影響してボタンが縦積みになる問題を解消。
+
+### 対応内容
+- **CSS・JSの読み込みをページID 1460のみに限定**（`is_page(1460)`）
+- **他ページへの干渉を完全排除**：1460以外ではLP専用CSS・JSを一切読み込まない
+- **Gutenbergエディター保護**：`is_user_logged_in()` ガードを追加し、ログイン中はスクリプト除去をスキップ
+  - GutenbergはページID 1460をフロントエンドとしてiframe描画するため、`wp-api-fetch`（REST API認証担当）が除去されると403エラーが発生する
+
+---
+
+## トラブルシューティング記録（2026年3月22日）
+
+### 症状
+子テーマ有効化後、全編集画面（固定ページ・投稿）でREST APIへの403エラーが大量に発生。
+
+### 原因
+1. **functions.php** — `wp_print_scripts` がGutenbergのiframe内で `wp-api-fetch` を除去し、REST API認証が失敗
+2. **.htaccess** — `# BEGIN WordPress` ブロックが重複しており、リライトルールが競合
+3. **ブラウザの古いセッションCookie** — nonceが期限切れになっていた
+
+### 解決策
+1. `functions.php` に `is_user_logged_in()` ガードを追加（ログイン中はスクリプト除去をスキップ）
+2. `.htaccess` の重複Wordpressブロックを削除してクリーンな状態に修正
+3. ブラウザのCookieをクリアしてWordPressに再ログイン
+
+---
+
 ## トラブルシューティング記録（2026年3月21日）
 
 ### 症状
