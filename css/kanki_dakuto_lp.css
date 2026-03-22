@@ -1249,6 +1249,14 @@ p { line-height: 1.6; }
     white-space: normal !important;
   }
 
+  /* リスクカード：タイトル・説明を固定サイズに */
+  .risk-card-title {
+    font-size: 36px !important;
+  }
+  .risk-card-desc {
+    font-size: 18px !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
