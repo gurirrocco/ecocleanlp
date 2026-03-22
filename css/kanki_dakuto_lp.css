@@ -423,7 +423,7 @@ p { line-height: 1.6; }
   white-space: nowrap;
 }
 .btn-tel-sub {
-  font-size: clamp(10px, 1.042vw, 20px);
+  font-size: clamp(12px, 1.042vw, 20px);
   white-space: nowrap;
 }
 
@@ -564,7 +564,7 @@ p { line-height: 1.6; }
   background: #293d86;
   color: #fffa26;
   font-weight: 700;
-  font-size: clamp(10px, 1.25vw, 24px);
+  font-size: clamp(12px, 1.25vw, 24px);
   padding: clamp(4px, 0.521vw, 10px);
   white-space: nowrap;
   text-align: center;
