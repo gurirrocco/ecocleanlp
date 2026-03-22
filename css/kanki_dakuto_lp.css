@@ -1264,6 +1264,10 @@ p { line-height: 1.6; }
   .risk-compare-card p:not(:nth-child(2)) {
     font-size: 26px !important;
   }
+  /* 事例カード（子2つのみ）：2番目は説明文なので小さく */
+  .risk-compare-card p:nth-child(2):last-child {
+    font-size: 20px !important;
+  }
 
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
