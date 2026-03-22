@@ -1201,8 +1201,22 @@ p { line-height: 1.6; }
   }
 }
 
-/* 1920px ではムービーセクションを zoom なしで正しく中央配置 */
+/* 1920px以上：サイズ・レイアウトを固定 */
 @media (min-width: 1920px) {
+  /* ダクトとはセクション：画像とテキストを均等分割 */
+  .what-is-img {
+    flex: 1;
+    width: auto;
+  }
+
+  /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
+  .benefit-text {
+    font-size: 28px;
+  }
+  .benefit-icon {
+    width: 120px;
+    height: 95px;
+  }
   .movie-section {
     zoom: 1;
     margin-left: auto;
