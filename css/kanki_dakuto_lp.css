@@ -1274,6 +1274,11 @@ p { line-height: 1.6; }
     font-size: 36px !important;
   }
 
+  /* お家や店舗が〜見出し */
+  .sec-worries .worries-white-card > div[style*="margin-top"] p {
+    font-size: 48px !important;
+  }
+
   /* 確かな技術セクション見出し */
   .tech-heading-wrap > p:first-child {
     font-size: 28px !important;
