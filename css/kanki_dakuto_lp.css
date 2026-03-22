@@ -1219,6 +1219,11 @@ p { line-height: 1.6; }
     min-width: 0;
   }
 
+  /* 顧客カードヘッダー：フォントを小さくして切れないようにする */
+  .customer-card-hd p {
+    font-size: 36px !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
