@@ -1203,10 +1203,20 @@ p { line-height: 1.6; }
 
 /* 1920px以上：サイズ・レイアウトを固定 */
 @media (min-width: 1920px) {
-  /* ダクトとはセクション：画像とテキストを均等分割 */
+  /* ダクトとはセクション：行paddingを除去し画像とテキストを均等分割 */
+  .what-is-row {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .what-is-img {
-    flex: 1;
+    flex: 1 1 0%;
     width: auto;
+    min-width: 0;
+    height: 330px;
+  }
+  .what-is-text {
+    flex: 1 1 0%;
+    min-width: 0;
   }
 
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
