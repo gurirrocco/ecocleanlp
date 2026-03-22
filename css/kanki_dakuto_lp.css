@@ -1235,6 +1235,14 @@ p { line-height: 1.6; }
     font-size: 24px !important;
   }
 
+  /* 選ばれる理由：タイトル・説明を固定サイズに */
+  .reason-title-tag p {
+    font-size: 28px !important;
+  }
+  .reason-desc {
+    font-size: 20px !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
