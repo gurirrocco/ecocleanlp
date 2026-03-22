@@ -1201,8 +1201,8 @@ p { line-height: 1.6; }
   }
 }
 
-/* 1450px以上：サイズ・レイアウトを固定 */
-@media (min-width: 1450px) {
+/* 1200px以上：サイズ・レイアウトを固定 */
+@media (min-width: 1200px) {
   /* ダクトとはセクション：行paddingを除去し画像とテキストを均等分割 */
   .what-is-row {
     padding-left: 0;
