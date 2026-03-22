@@ -1269,6 +1269,11 @@ p { line-height: 1.6; }
     font-size: 20px !important;
   }
 
+  /* 地域セクション見出し */
+  .region-title-wrap p {
+    font-size: 36px !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
