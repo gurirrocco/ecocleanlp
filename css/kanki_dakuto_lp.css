@@ -1224,6 +1224,11 @@ p { line-height: 1.6; }
     font-size: 36px !important;
   }
 
+  /* CTA2：テキストが切れないようボックス幅を広げる */
+  .cta2-navy-box {
+    max-width: 1100px;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
