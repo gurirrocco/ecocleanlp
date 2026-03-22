@@ -219,7 +219,7 @@
             </div>
             <div class="dirt-photo-col">
               <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/images/dirt-toilet-room.webp" alt="トイレ・部屋などの換気ダクト" />
-              <div class="dirt-caption-tag">トイレ・部屋などの換気ダクト</div>
+              <div class="dirt-caption-tag">トイレ・部屋などの<br class="lg-br">換気ダクト</div>
             </div>
           </div>
         </div>
@@ -670,7 +670,7 @@
             </div>
             <div class="sp-plan-row">
               <div class="sp-plan-label">追加オプション</div>
-              <div class="sp-plan-value">グリスフィルター <strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
+              <div class="sp-plan-value">グリスフィルター<br class="lg-br"><strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
             </div>
           </div>
           <!-- 3箇所プラン -->
@@ -690,7 +690,7 @@
             </div>
             <div class="sp-plan-row">
               <div class="sp-plan-label">追加オプション</div>
-              <div class="sp-plan-value">グリスフィルター <strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
+              <div class="sp-plan-value">グリスフィルター<br class="lg-br"><strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
             </div>
           </div>
           <!-- 5箇所まるごとプラン -->
@@ -709,7 +709,7 @@
             </div>
             <div class="sp-plan-row">
               <div class="sp-plan-label">追加オプション</div>
-              <div class="sp-plan-value">グリスフィルター <strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
+              <div class="sp-plan-value">グリスフィルター<br class="lg-br"><strong>別途¥5,000</strong><br>飲食店フードダクト：別途お見積もり</div>
             </div>
           </div>
         </div>
