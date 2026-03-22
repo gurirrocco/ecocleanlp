@@ -1274,6 +1274,30 @@ p { line-height: 1.6; }
     font-size: 36px !important;
   }
 
+  /* 確かな技術セクション見出し */
+  .tech-heading-wrap > p:first-child {
+    font-size: 28px !important;
+    line-height: 1.5 !important;
+  }
+  .tech-yellow-band span:first-child {
+    font-size: 48px !important;
+  }
+  .tech-yellow-band span:last-child {
+    font-size: 36px !important;
+  }
+  .tech-subtitle-wrap p {
+    font-size: 38px !important;
+    white-space: normal !important;
+  }
+
+  /* 動画セクション */
+  .movie-title-badge p:first-child {
+    font-size: 36px !important;
+  }
+  .movie-title-badge p:last-child {
+    font-size: 22px !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
