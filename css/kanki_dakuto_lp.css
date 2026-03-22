@@ -1340,8 +1340,8 @@ p { line-height: 1.6; }
     font-size: 18px !important;
   }
 
-  /* 料金セクション見出し */
-  .pricing-section > div > p {
+  /* 料金セクション見出し（pricing-noteは除外） */
+  .pricing-section > div:not(.pricing-note) > p {
     font-size: 36px !important;
   }
 
