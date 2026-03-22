@@ -1418,8 +1418,9 @@ p { line-height: 1.6; }
     flex-direction: column;
     gap: 16px;
   }
-  .benefit-item { width: 100%; overflow: hidden; }
-  .benefit-icon { width: 22vw; height: 22vw; max-width: 90px; max-height: 90px; }
+  .benefit-item { width: 100%; overflow: hidden; justify-content: space-between; }
+  .benefit-text { white-space: normal; }
+  .benefit-icon { width: 35vw; height: 28vw; max-width: 140px; max-height: 110px; flex-shrink: 0; }
   .benefit-divider-v {
     width: 60%;
     height: 1px;
