@@ -1413,10 +1413,13 @@ p { line-height: 1.6; }
   .hero-bottom-banner { font-size: 16px; font-weight: 700; }
 
   /* Benefits */
+  .benefits-white-card { overflow: hidden; }
   .benefits-row {
     flex-direction: column;
     gap: 16px;
   }
+  .benefit-item { width: 100%; overflow: hidden; }
+  .benefit-icon { width: 22vw; height: 22vw; max-width: 90px; max-height: 90px; }
   .benefit-divider-v {
     width: 60%;
     height: 1px;
