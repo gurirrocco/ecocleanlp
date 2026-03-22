@@ -1257,6 +1257,14 @@ p { line-height: 1.6; }
     font-size: 18px !important;
   }
 
+  /* リスク比較カード：大数字・ラベルを固定サイズに */
+  .risk-compare-card p:nth-child(2) {
+    font-size: 64px !important;
+  }
+  .risk-compare-card p:not(:nth-child(2)) {
+    font-size: 26px !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
