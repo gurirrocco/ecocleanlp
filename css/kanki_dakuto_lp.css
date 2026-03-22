@@ -1243,6 +1243,12 @@ p { line-height: 1.6; }
     font-size: 20px !important;
   }
 
+  /* 汚れ写真キャプション：カラム幅に収まるよう縮小 */
+  .dirt-caption-tag {
+    font-size: 18px !important;
+    white-space: normal !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
