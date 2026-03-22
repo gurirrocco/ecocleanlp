@@ -1308,6 +1308,43 @@ p { line-height: 1.6; }
     font-size: 22px !important;
   }
 
+  /* 選ばれる理由・口コミ：セクション見出し */
+  .sec-reasons .hl-wrap p {
+    font-size: 48px !important;
+  }
+  .reason-num {
+    font-size: 48px !important;
+  }
+
+  /* 口コミテキスト */
+  .review-hd p,
+  .review-meta span,
+  .review-body {
+    font-size: 18px !important;
+  }
+  .reviews-section > p {
+    font-size: 18px !important;
+  }
+
+  /* 作業の流れ・料金：セクション見出し */
+  .sec-pricing .hl-wrap p {
+    font-size: 48px !important;
+  }
+  .flow-num {
+    font-size: 48px !important;
+  }
+  .flow-title-tag p {
+    font-size: 28px !important;
+  }
+  .flow-desc {
+    font-size: 18px !important;
+  }
+
+  /* 料金セクション見出し */
+  .pricing-section > div > p {
+    font-size: 36px !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
