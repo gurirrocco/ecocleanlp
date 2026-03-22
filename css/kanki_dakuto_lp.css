@@ -1229,6 +1229,12 @@ p { line-height: 1.6; }
     max-width: 1100px;
   }
 
+  /* サービスカード：タイトル・説明を固定サイズに */
+  .service-card-hd p,
+  .service-card > p {
+    font-size: 24px !important;
+  }
+
   /* ベネフィット：フォント・アイコンを固定しはみ出しを防ぐ */
   .benefit-text {
     font-size: 28px;
