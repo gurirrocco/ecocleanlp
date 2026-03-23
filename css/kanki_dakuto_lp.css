@@ -750,7 +750,6 @@ p { line-height: 1.6; }
   align-items: center;
   gap: clamp(4px, 0.521vw, 10px);
   width: 100%;
-  max-width: 1024px;
   text-align: center;
 }
 .service-cards-grid {
@@ -758,7 +757,6 @@ p { line-height: 1.6; }
   grid-template-columns: repeat(2, 1fr);
   gap: clamp(8px, 0.521vw, 10px);
   width: 100%;
-  max-width: 1024px;
 }
 .service-card {
   border: 1px solid #293d86;
@@ -1169,17 +1167,17 @@ p { line-height: 1.6; }
    換気ダクト清掃とは以降 コンテンツ幅 1200px
 =================================== */
 .sec-worries .inner-1450 {
-  max-width: 1100px;
+  max-width: 1200px;
 }
 .sec-risks .inner-1356,
 .sec-services .inner-1450,
 .sec-reasons .inner-1450,
 .sec-pricing .inner-1450,
 .sec-benefits .inner-1349 {
-  max-width: 1000px;
+  max-width: 1200px;
 }
 .sec-tech .tech-heading-wrap {
-  max-width: 1000px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: clamp(20px, 4vw, 80px);
@@ -1232,7 +1230,7 @@ p { line-height: 1.6; }
 
   /* CTA2：テキストが切れないようボックス幅を広げる */
   .cta2-navy-box {
-    max-width: 1100px;
+    max-width: 1200px;
   }
 
   /* サービスカード：タイトル・説明を固定サイズに */
