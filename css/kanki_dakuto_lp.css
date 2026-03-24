@@ -995,9 +995,8 @@ p { line-height: 1.6; }
   margin-left: -5%;
 }
 .movie-person-photo {
-  width: clamp(150px, 36vw, 400px);
-  aspect-ratio: 16 / 9;
-  height: auto;
+  height: clamp(135px, 22.5vw, 315px);
+  width: auto;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -1008,9 +1007,9 @@ p { line-height: 1.6; }
   margin-top: clamp(16px, 1.563vw, 30px);
 }
 .movie-person-photo img {
-  width: 100%;
   height: 100%;
-  object-fit: cover;
+  width: auto;
+  object-fit: contain;
   object-position: top center;
 }
 
@@ -1379,7 +1378,7 @@ p { line-height: 1.6; }
     gap: 20px;
   }
   .movie-person-photo {
-    width: 400px;
+    height: 315px;
   }
   .movie-section .btn-diagnosis {
     width: 500px;
