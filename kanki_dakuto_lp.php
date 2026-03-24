@@ -136,7 +136,7 @@
           <div class="btn-tel-divider"></div>
           <div class="btn-tel-num-wrap">
             <p class="btn-tel-num">06-6152-6364</p>
-            <p class="btn-tel-sub">緊急時にもご対応させて頂きます</p>
+            <p class="btn-tel-sub">緊急時にも対応します！</p>
           </div>
         </a>
       </div>
@@ -737,7 +737,7 @@
           <div class="btn-tel-divider"></div>
           <div class="btn-tel-num-wrap">
             <p class="btn-tel-num">06-6152-6364</p>
-            <p class="btn-tel-sub">緊急時にもご対応させて頂きます</p>
+            <p class="btn-tel-sub">緊急時にも対応します！</p>
           </div>
         </a>
       </div>
