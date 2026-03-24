@@ -1626,7 +1626,7 @@ p { line-height: 1.6; }
   .tech-subtitle-wrap p.navy { font-size: 18px !important; }
   .tech-subtitle-wrap ~ p br:first-child { display: none; }
   .tech-subtitle-wrap ~ p { line-height: 1.5 !important; font-size: 13px !important; letter-spacing: -0.03em; }
-  .tech-heading-wrap > p.navy { font-size: 14px !important; line-height: 1.4 !important; }
+  .tech-heading-wrap > p.navy { font-size: 14px !important; line-height: 1.4 !important; padding: 0 30px; }
   .tech-yellow-band span:first-child { font-size: 18px !important; }
   .tech-yellow-band span:last-child { font-size: 14px !important; }
 
