@@ -823,6 +823,12 @@ p { line-height: 1.6; }
   align-items: center;
   gap: clamp(30px, 3.125vw, 60px);
 }
+@media (min-width: 769px) {
+  .sec-tech {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
 .tech-heading-wrap {
   display: flex;
   flex-direction: column;
@@ -1367,8 +1373,8 @@ p { line-height: 1.6; }
     gap: 20px;
   }
   .movie-person-photo {
-    width: 579px;
-    height: 569px;
+    width: auto;
+    max-height: 432px;
   }
   .movie-section .btn-diagnosis {
     width: 500px;
@@ -1480,6 +1486,8 @@ p { line-height: 1.6; }
     gap: 20px;
     max-width: 100%;
     align-items: center;
+    padding: 0 16px;
+    box-sizing: border-box;
   }
   .abs-step, .abs-label {
     position: static !important;
