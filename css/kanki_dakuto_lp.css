@@ -1440,7 +1440,7 @@ p { line-height: 1.6; }
     max-width: 400px;
     justify-content: center;
   }
-  .btn-tel { padding: 16px 24px; height: auto; }
+  .btn-tel { padding: 14px 16px; height: auto; min-width: unset; }
 
   /* 顧客カード */
   .customer-row {
@@ -1590,13 +1590,17 @@ p { line-height: 1.6; }
     width: 100%;
   }
   .btn-tel {
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
-    gap: 8px;
-    padding: 16px;
+    gap: 12px;
+    padding: 14px 16px;
     width: 100%;
+    min-width: unset;
   }
-  .btn-tel-divider { display: none; }
+  .btn-tel-divider { display: block; }
+  .btn-tel-label { font-size: 14px; }
+  .btn-tel-num { font-size: 20px; }
+  .btn-tel-sub { font-size: 12px; }
   .service-cards-grid { grid-template-columns: repeat(2, 1fr); }
   .dirt-caption-tag { font-size: 13px; white-space: normal; }
   .dirt-photos-box ~ div p.navy { font-size: 18px !important; }
