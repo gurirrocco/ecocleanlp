@@ -1516,7 +1516,8 @@ p { line-height: 1.6; }
   .movie-photos-row { flex-direction: column; align-items: center; }
   .movie-left-col { width: 100%; }
   .movie-photo { width: 100%; max-width: 400px; height: 200px; }
-  .movie-person-photo { width: 100%; max-width: 400px; height: auto; margin: 0 auto; display: block; }
+  .movie-person-photo { width: 100%; max-width: 280px; height: 210px; margin: 0 auto; display: block; overflow: hidden; }
+  .movie-person-photo img { width: 100%; height: auto; object-fit: contain; object-position: top center; }
   .movie-title-badge { width: 90vw; }
   .movie-title-badge p:first-child { font-size: 5vw !important; white-space: normal; }
   .movie-title-badge p:last-child { font-size: 3.5vw !important; white-space: normal; }
