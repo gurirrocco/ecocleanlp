@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>ランディングページ 修正マニュアル</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+      font-size: 13px;
+      color: #222;
+      line-height: 1.8;
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 20px;
+      color: #fff;
+      background: #293d86;
+      padding: 14px 20px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 15px;
+      color: #293d86;
+      border-left: 5px solid #293d86;
+      padding: 6px 12px;
+      background: #f0f3ff;
+      margin: 30px 0 12px;
+      border-radius: 0 4px 4px 0;
+    }
+    h3 {
+      font-size: 13px;
+      color: #293d86;
+      margin: 20px 0 8px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #ccd3f0;
+    }
+    p { margin-bottom: 10px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 16px;
+      font-size: 12px;
+    }
+    th {
+      background: #293d86;
+      color: #fff;
+      padding: 8px 10px;
+      text-align: left;
+    }
+    td {
+      padding: 7px 10px;
+      border-bottom: 1px solid #dde;
+      vertical-align: top;
+    }
+    tr:nth-child(even) td { background: #f7f8ff; }
+    code, pre {
+      font-family: "Courier New", monospace;
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 11.5px;
+    }
+    code { padding: 1px 6px; }
+    pre {
+      padding: 12px 16px;
+      margin: 8px 0 14px;
+      overflow-x: auto;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    .warn {
+      background: #fff8e1;
+      border-left: 4px solid #f0a500;
+      padding: 10px 14px;
+      margin: 10px 0;
+      border-radius: 0 4px 4px 0;
+      font-size: 12px;
+    }
+    .warn::before { content: "⚠️ "; }
+    .info {
+      background: #e8f4ff;
+      border-left: 4px solid #293d86;
+      padding: 10px 14px;
+      margin: 10px 0;
+      border-radius: 0 4px 4px 0;
+      font-size: 12px;
+    }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    li { margin-bottom: 4px; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li::before { content: "☐ "; font-size: 14px; }
+    .path {
+      background: #1e1e1e;
+      color: #9cdcfe;
+      padding: 10px 16px;
+      border-radius: 4px;
+      font-family: "Courier New", monospace;
+      font-size: 12px;
+      margin: 8px 0 14px;
+    }
+    .chapter-num {
+      display: inline-block;
+      background: #293d86;
+      color: #fff;
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
+      text-align: center;
+      line-height: 22px;
+      font-size: 12px;
+      margin-right: 6px;
+    }
+    .footer {
+      margin-top: 50px;
+      padding-top: 16px;
+      border-top: 1px solid #ccc;
+      font-size: 11px;
+      color: #888;
+      text-align: right;
+    }
+    @media print {
+      body { padding: 20px; font-size: 12px; }
+      h2 { page-break-after: avoid; }
+      pre, table { page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>ランディングページ 修正マニュアル</h1>
+
+<!-- ===== 第1章 ===== -->
+<h2><span class="chapter-num">1</span> ファイル構成と役割</h2>
+
+<table>
+  <tr><th>ファイル／フォルダ</th><th>役割</th><th>修正頻度</th></tr>
+  <tr><td><code>kanki_dakuto_lp.php</code></td><td>ページ本体。文言・動画リンクなど<strong>内容の変更</strong>はここ</td><td>高</td></tr>
+  <tr><td><code>css/kanki_dakuto_lp.css</code></td><td>色・サイズ・余白など<strong>見た目の変更</strong>はここ</td><td>中</td></tr>
+  <tr><td><code>images/</code> フォルダ</td><td>ページ内で使用している<strong>画像ファイル一式</strong></td><td>中</td></tr>
+  <tr><td><code>js/kanki_dakuto_lp.js</code></td><td>ボタンクリックなど<strong>動きの制御</strong></td><td>低</td></tr>
+</table>
+
+<!-- ===== 第2章 ===== -->
+<h2><span class="chapter-num">2</span> ファイルへのアクセス方法（FileZilla）</h2>
+
+<h3>接続情報</h3>
+<table>
+  <tr><th>項目</th><th>値</th></tr>
+  <tr><td>ホスト</td><td><code>ftp.lolipop.jp</code></td></tr>
+  <tr><td>ユーザー名</td><td><code>main.jp-703design</code></td></tr>
+  <tr><td>パスワード</td><td>ご契約時のFTPパスワード</td></tr>
+  <tr><td>ポート</td><td>（空欄のままでOK）</td></tr>
+</table>
+
+<h3>ファイルの場所（リモートサイト）</h3>
+<div class="path">/eco-clean-osaka/wp-content/themes/ecocleanLP/</div>
+
+<p>このフォルダ内に以下のファイルが格納されています：</p>
+<ul>
+  <li><code>kanki_dakuto_lp.php</code>　← 主な修正対象</li>
+  <li><code>style.css</code></li>
+  <li><code>functions.php</code></li>
+  <li><code>css/</code>　→ <code>kanki_dakuto_lp.css</code> が入っています</li>
+  <li><code>images/</code></li>
+  <li><code>js/</code></li>
+</ul>
+
+<h3>ファイルを編集する手順</h3>
+<ol style="padding-left:20px; margin-bottom:10px;">
+  <li>FileZillaでFTP接続する</li>
+  <li>リモートサイトで上記のパスへ移動する</li>
+  <li>編集したいファイルを右クリック →「表示/編集」またはローカルにダウンロード</li>
+  <li>テキストエディタで編集・保存（文字コード：<strong>UTF-8</strong>）</li>
+  <li>ダウンロードして編集した場合は同じ場所にアップロード（上書き）</li>
+</ol>
+
+<div class="warn">編集前に必ずファイルをローカルにバックアップ（コピー保存）してください。</div>
+
+<!-- ===== 第3章 ===== -->
+<h2><span class="chapter-num">3</span> よくある修正と手順</h2>
+
+<h3>■ 文言を変更したい</h3>
+<p><strong>対象ファイル：</strong> <code>kanki_dakuto_lp.php</code></p>
+<p>テキストエディタで開き、<code>Ctrl + F</code>（Mac: <code>Cmd + F</code>）で変更したい文言を検索して書き換えます。</p>
+<pre>&lt;!-- 例：電話番号を変更する場合 --&gt;
+&lt;span class="btn-tel-num"&gt;06-6152-6364&lt;/span&gt;
+　　　　　　↓
+&lt;span class="btn-tel-num"&gt;06-XXXX-XXXX&lt;/span&gt;</pre>
+
+<h3>■ YouTube動画を差し替えたい</h3>
+<p><strong>対象ファイル：</strong> <code>kanki_dakuto_lp.php</code>（483行目付近）</p>
+<ol style="padding-left:20px; margin-bottom:10px;">
+  <li>YouTubeで新しい動画を開く</li>
+  <li>「共有」→「埋め込む」をクリック</li>
+  <li>表示されたURLから動画IDのみをメモする<br>
+      <code>https://www.youtube.com/embed/<strong>【動画ID】</strong>?si=XXXXXXXXX</code></li>
+  <li><code>kanki_dakuto_lp.php</code> 内の以下の箇所を探す</li>
+</ol>
+<pre>src="https://www.youtube.com/embed/YrgQ-NV_tYk"</pre>
+<p><code>YrgQ-NV_tYk</code> の部分を新しい動画IDに書き換える。</p>
+
+<div class="warn">
+  YouTubeの埋め込みコードには <code>?si=XXXXXXXXX</code> が自動で付きますが、<strong>必ず削除</strong>してから使用してください。削除しないとiPhoneのSafariで認証画面が表示されます。<br><br>
+  ✅ 正しい例：<code>src="https://www.youtube.com/embed/XXXXXXXXXX"</code><br>
+  ❌ 悪い例 ：<code>src="https://www.youtube.com/embed/XXXXXXXXXX?si=abcd1234"</code>
+</div>
+
+<h3>■ 画像を差し替えたい</h3>
+<p><strong>対象フォルダ：</strong> <code>images/</code></p>
+<ol style="padding-left:20px; margin-bottom:10px;">
+  <li>既存ファイルと<strong>同じファイル名・同じ形式（.webp など）</strong>で新しい画像を用意する</li>
+  <li>FileZillaで <code>images/</code> フォルダにアップロード（上書き）</li>
+</ol>
+<div class="info">ファイル名を変える場合は <code>kanki_dakuto_lp.php</code> 内の該当する <code>src="images/〇〇.webp"</code> も合わせて変更が必要です。</div>
+
+<h3>■ 色・フォントサイズ・余白を変更したい</h3>
+<p><strong>対象ファイル：</strong> <code>css/kanki_dakuto_lp.css</code></p>
+<table>
+  <tr><th>変更内容</th><th>検索キーワード</th></tr>
+  <tr><td>赤色系のボタン</td><td><code>#b13535</code> または <code>btn-tel</code></td></tr>
+  <tr><td>紺色</td><td><code>#293d86</code> または <code>navy</code></td></tr>
+  <tr><td>電話ボタン全体</td><td><code>.btn-tel</code></td></tr>
+  <tr><td>STEPエリア</td><td><code>.duct-abs-grid</code></td></tr>
+  <tr><td>動画・人物写真エリア</td><td><code>.movie-section</code></td></tr>
+</table>
+
+<!-- ===== 第4章 ===== -->
+<h2><span class="chapter-num">4</span> 修正後の確認チェックリスト</h2>
+<ul class="checklist">
+  <li>PC（Chrome）で表示確認</li>
+  <li>iPhone Safari（<strong>YouTubeにログアウトした状態</strong>）で表示確認</li>
+  <li>iPhone Chrome で表示確認</li>
+  <li>Android Chrome で表示確認</li>
+</ul>
+
+<!-- ===== 第5章 ===== -->
+<h2><span class="chapter-num">5</span> 修正時の注意事項</h2>
+<ol style="padding-left:20px;">
+  <li><strong>必ずバックアップを取る</strong> — 編集前に元ファイルをローカルに保存しておく</li>
+  <li><strong>文字コードはUTF-8</strong> — テキストエディタで保存する際は必ずUTF-8を指定する</li>
+  <li><strong><code>?si=</code> は削除する</strong> — YouTube埋め込みコードに含まれる <code>?si=〜</code> は必ず削除する</li>
+  <li><strong>半角・全角に注意</strong> — HTMLタグ内は必ず半角英数字で記述する</li>
+</ol>
+
+<div class="footer">
+  作成日：2026年3月26日　／　対象サイト：eco-clean-osaka.com
+</div>
+
+</body>
+</html>
